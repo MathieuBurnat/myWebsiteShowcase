@@ -19,6 +19,9 @@
         case '/bio' :
             require 'View/bio.php';
             break;
+        case '/dev-header' :
+            require 'View/header.php';
+            break;
         default:
             http_response_code(404);
             require 'View/Error_404.php'; //Aie, something wrong ! (page not found)
