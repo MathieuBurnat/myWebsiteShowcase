@@ -34,12 +34,15 @@ li a:hover {
     background-color: #111;
 }
 
+nav{
+    display: flex;
+    width: 100%;
+}
+
 .header-left > *{
     color: darkred;
-    float: left;
 }
 
 .header-right > *{
     color: pink;
-    float: right;
 }
