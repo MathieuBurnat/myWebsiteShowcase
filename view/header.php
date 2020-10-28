@@ -1,4 +1,4 @@
-    <nav>
+<nav>
         <ul class="header-left">
             <li><a class="active" href="/">M.BURNAT</a></li>
         </ul>
@@ -10,4 +10,4 @@
             <li><a href="/divers">Divers</a></li>
             <li><a href="/contact"> Rente-Me/Contact </a></li>
         </ul>
-    </nav>
+</nav>

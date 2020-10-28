@@ -1,7 +1,14 @@
+/*
+ * All
+ */
 *{
     margin: 0;
     padding: 0;
 }
+
+/*
+ * other
+ */
 h1{
     color: darkslategray;
 }
@@ -13,36 +20,32 @@ h1{
 /*
  * Header
  */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+nav{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
     background-color: #333;
 }
 
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-left{
+    margin-right: auto;
+}
 
 li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
+    padding: 20px 10px;
 }
 
 li a:hover {
     background-color: #111;
 }
 
-nav{
-    display: flex;
-    width: 100%;
-}
-
-.header-left > *{
-    color: darkred;
-}
-
-.header-right > *{
-    color: pink;
-}
