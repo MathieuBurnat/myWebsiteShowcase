@@ -1,5 +1,6 @@
 <?php
-    require('view/default.php');
+    require('view/layout.php');
+
     $request = '';
     $get_params_offset = stripos($_SERVER['REQUEST_URI'], '?');
 
