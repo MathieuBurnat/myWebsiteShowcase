@@ -5,4 +5,10 @@
         <title>MBU's showcase</title>
         <LINK href="../content/styles/styles.css" rel="stylesheet" type="text/css">
     </head>
-</html>
+</htm>
+
+<h1> 
+    <div>
+        <p class="salut"></p>
+    </div>
+</h1>
