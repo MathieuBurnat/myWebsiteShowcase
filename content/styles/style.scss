@@ -1,6 +1,14 @@
 /*
+scss variables
+*/
+$background-color : #333;
+$color-text-header : white;
+$color-text-error : darkred;
+
+/*
  * All
- */
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -14,7 +22,7 @@ h1{
 }
 
 .error{
-    color: darkred;
+    color: $color-text-error;
 }
 
 /*
@@ -24,7 +32,7 @@ nav{
     display: flex;
     width: 100%;
     flex-direction: row;
-    background-color: #333;
+    background-color: $background-color;
 }
 
 ul{
@@ -45,13 +53,13 @@ ul{
 
 li a {
     display: block;
-    color: white;
+    color: $color-text-header;
     text-align: center;
     text-decoration: none;
     padding: 20px 10px;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: $background-color;
 }
 
