@@ -1,5 +1,4 @@
 <?php
-    require('view/layout.php');
 
     $request = '';
     $get_params_offset = stripos($_SERVER['REQUEST_URI'], '?');
@@ -11,37 +10,48 @@
         $request = $_SERVER['REQUEST_URI'];
     }
 
+    $path = "";
     switch ($request) {
         //Router dev request
         case '/dev-header' :
-            require 'view/header.php';
+            $path = "view/header.php";
             break;
+
         //Normal request
         case '' :
         case '/' :
-            require 'view/homepage.php';
+            $path = "view/homepage.php";
             break;
+
         case '/bio' :
-            require 'view/bio.php';
+            $path = "view/bio.php";
             break;
+
         case '/info-dev' :
-            require 'view/info-dev.php';
+            $path = "view/info-dev.php";
+
             break;
+
         case '/info-crea-tech' :
-            require 'view/info-crea-tech.php';
-            break;            
+            $path = "view/info-crea-tech.php";
+            break;    
+
         case '/marketing' :
-            require 'view/marketing.php';
-            break;            
+            $path = "view/marketing.php";
+            break;    
+
         case '/divers' :
-            require 'view/divers.php';
+            $path = "view/divers.php";
             break;
+
         case '/contact' :
-            require 'view/contact.php';
+            $path = "view/contact.php";
             break; 
+
         default:
             http_response_code(404);
-            require 'view/Error_404.php'; //Aie, something wrong ! (page not found)
+            $path = "view/Error_404.php"; //Aie, something wrong ! (page not found)
             break;
     }
+    require('view/layout.php');
 ?>

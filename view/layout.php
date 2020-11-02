@@ -5,10 +5,9 @@
         <title>MBU's showcase</title>
         <LINK href="../content/styles/styles.css" rel="stylesheet" type="text/css">
     </head>
+    <body>
+        <?php
+            require($path); //Require the content desired per the router.
+        ?>
+    </body>
 </htm>
-
-<h1> 
-    <div>
-        <p class="salut"></p>
-    </div>
-</h1>
