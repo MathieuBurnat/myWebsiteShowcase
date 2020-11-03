@@ -23,9 +23,6 @@ $color-text-error : darkred;
 /*
  * other
  */
-h1{
-    color: darkslategray;
-}
 
 .error{
     color: $color-text-error;
@@ -75,14 +72,32 @@ li:hover {
  * Home-page
 */
 .hp-container{
+    /* css for the image */
     color: purple;
-        h1{
-            font-style: oblique;
-            color: purple;
-        }
+    background-image: url("../images/me-back.jpg");
+    height: 1300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 
-        p{
 
-        }
+    .hp-text{
+        text-align: center;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
+    .hp-button{
+        text-align: center;
+        position: absolute;
+        top: 25%;
+        left: 71%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+
 }
-
