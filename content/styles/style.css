@@ -72,6 +72,7 @@ li:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  text-shadow: 2px 2px #00000047;
 }
 .hp-container .hp-text {
   text-align: center;
