@@ -1,3 +1,7 @@
+@font-face {
+  font-family: lato;
+  src: url(../fonts/Lato-Regular.ttf);
+}
 /*
 scss variables
 */
@@ -5,6 +9,7 @@ scss variables
  * All
 */
 * {
+  font-family: lato;
   margin: 0;
   padding: 0;
 }
@@ -39,10 +44,12 @@ ul {
 .header-left {
   margin-right: auto;
   margin-left: 20px;
+  font-size: 30px;
 }
 
 .header-right {
   margin-right: 20px;
+  font-size: 20px;
 }
 
 li a {
@@ -50,15 +57,22 @@ li a {
   color: white;
   text-align: center;
   text-decoration: none;
-  padding: 20px 10px;
+  padding: 40px 10px;
 }
 
-li a:hover {
-  background-color: #333;
+li:hover {
+  background-color: purple;
 }
 
 /*
  * Home-page
 */
+.hp-container {
+  color: purple;
+}
+.hp-container h1 {
+  font-style: oblique;
+  color: purple;
+}
 
 /*# sourceMappingURL=style.css.map */

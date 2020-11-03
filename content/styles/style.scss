@@ -1,3 +1,8 @@
+@font-face {
+    font-family: lato;
+    src: url(../fonts/Lato-Regular.ttf);
+  }
+
 /*
 scss variables
 */
@@ -10,6 +15,7 @@ $color-text-error : darkred;
 */
 
 *{
+    font-family: lato;
     margin: 0;
     padding: 0;
 }
@@ -44,10 +50,12 @@ ul{
 .header-left{
     margin-right: auto;
     margin-left: 20px;
+    font-size: 30px;
 }
 
 .header-right{
     margin-right: 20px;
+    font-size: 20px;
 }
 
 
@@ -56,24 +64,25 @@ li a {
     color: $color-text-header;
     text-align: center;
     text-decoration: none;
-    padding: 20px 10px;
+    padding: 40px 10px;
 }
 
-li a:hover {
-    background-color: $background-color;
+li:hover {
+    background-color: purple;
 }
 
 /*
  * Home-page
 */
 .hp-container{
-    .hp-text{
+    color: purple;
         h1{
-
+            font-style: oblique;
+            color: purple;
         }
+
         p{
 
         }
-    }
 }
 
