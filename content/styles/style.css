@@ -1,6 +1,10 @@
 @font-face {
   font-family: lato;
-  src: url(../fonts/Lato-Regular.ttf);
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: gorgia;
+  src: url(../fonts/georgia/georgia.ttf);
 }
 /*
 scss variables
@@ -89,16 +93,16 @@ li:hover {
   /* Position */
   text-align: center;
   position: absolute;
-  top: 25%;
-  left: 71%;
+  top: 21%;
+  left: 72%;
   transform: translate(-50%, -50%);
   /* Aspect */
   color: white;
   text-decoration: none;
   background-color: #0000003d;
   font-weight: bold;
-  padding: 10px 30px;
-  border-radius: 7px;
+  padding: 15px 25px;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */
