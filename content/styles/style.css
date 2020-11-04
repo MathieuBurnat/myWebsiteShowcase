@@ -88,6 +88,7 @@ li:hover {
   transform: translate(-50%, -50%);
   text-shadow: 2px 2px #00000047;
   color: white;
+  font-size: 20px;
 }
 .hp-body .hp-container .hp-button {
   /* Position */
