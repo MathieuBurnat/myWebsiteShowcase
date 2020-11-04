@@ -1,0 +1,109 @@
+@font-face {
+  font-family: lato;
+  src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: gorgia;
+  src: url(../fonts/georgia/georgia.ttf);
+}
+/*
+scss variables
+*/
+/*
+ * All
+*/
+* {
+  font-family: lato;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * other
+ */
+.error {
+  color: darkred;
+}
+
+/*
+ * Header
+ */
+nav {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  background-color: #000;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-left {
+  margin-right: auto;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.header-right {
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 40px 10px;
+}
+
+li:hover {
+  background-color: #4747478c;
+}
+
+/*
+ * Home-page
+*/
+.hp-body {
+  overflow-y: hidden;
+}
+.hp-body .hp-container {
+  /* css for the image */
+  color: purple;
+  background-image: url("../images/me-back.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 150vh;
+}
+.hp-body .hp-container .hp-text {
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px #00000047;
+  color: white;
+  font-size: 20px;
+}
+.hp-body .hp-container .hp-button {
+  /* Position */
+  text-align: center;
+  position: absolute;
+  top: 21%;
+  left: 72%;
+  transform: translate(-50%, -50%);
+  /* Aspect */
+  color: white;
+  text-decoration: none;
+  background-color: #0000003d;
+  font-weight: bold;
+  padding: 15px 25px;
+  border-radius: 6px;
+}
+
+/*# sourceMappingURL=style.css.map */

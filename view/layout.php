@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>MBU's showcase</title>
-        <LINK href="../content/styles/styles.css" rel="stylesheet" type="text/css">
+        <LINK href="../content/styles/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
         <?php
