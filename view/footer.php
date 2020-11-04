@@ -1,3 +1,3 @@
 <div class="footer">
-  <p>Footer :'D</p>
+  <p>Copyright @2020 M. Burnat - All rights Reerved.</p>
 </div>

@@ -12,7 +12,8 @@
 scss variables
 */
 $background-color : #000;
-$color-text-header : white;
+$color-hover: #4747478c;
+$color-text-big-tittle : white;
 $color-text-error : darkred;
 
 /*
@@ -63,14 +64,14 @@ ul{
 
 li a {
     display: block;
-    color: $color-text-header;
+    color: $color-text-big-tittle;
     text-align: center;
     text-decoration: none;
     padding: 40px 10px;
 }
 
 li:hover {
-    background-color: #4747478c;
+    background-color: $color-hover;
 }
 
 /* 
@@ -81,9 +82,10 @@ li:hover {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
+    background-color: $background-color;
+    color: $color-text-big-tittle;
     text-align: center;
+    padding: 90px 0px;
 }
 
 /*
@@ -134,4 +136,18 @@ li:hover {
     }
 }
 
-
+/*
+ * Bio
+*/
+.bio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6em;
+    
+    .bio-content{
+        width: 500px;
+        margin: 10px;
+        text-align: center;
+    }
+}
