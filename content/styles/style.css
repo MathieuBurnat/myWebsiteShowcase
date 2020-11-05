@@ -25,6 +25,13 @@ scss variables
   color: darkred;
 }
 
+.default-image {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
 /*
  * Header
  */
@@ -121,6 +128,28 @@ li:hover {
 }
 
 /*
+ * Divers
+*/
+.div-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.div-container .div-content-img {
+  width: 700px;
+  height: 100%;
+  margin: 0 20px;
+}
+.div-container .div-content {
+  margin-top: 6em;
+  width: 500px;
+  text-align: center;
+}
+.div-container .div-content h2 {
+  padding: 10px;
+}
+
+/*
  * Bio
 */
 .bio-container {
@@ -136,12 +165,6 @@ li:hover {
 }
 .bio-container .bio-content h2 {
   padding: 10px;
-}
-.bio-container .bio-content .bio-image {
-  background-color: #e6e6e6;
-  width: 100%;
-  height: 100%;
-  display: block;
 }
 
 /*# sourceMappingURL=style.css.map */

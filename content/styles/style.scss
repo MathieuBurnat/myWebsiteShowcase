@@ -34,6 +34,13 @@ $color-text-error : darkred;
     color: $color-text-error;
 }
 
+.default-image{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 /*
  * Header
  */
@@ -136,6 +143,32 @@ li:hover {
     }
 }
 
+
+/*
+ * Divers
+*/
+.div-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    .div-content-img{
+        width: 700px;
+        height: 100%;
+         margin: 0 20px;
+    }
+
+    .div-content{
+        margin-top: 6em;
+        width: 500px;
+        text-align: center;
+
+        h2{
+            padding: 10px;
+        }
+    }
+}
+
 /*
  * Bio
 */
@@ -152,13 +185,6 @@ li:hover {
 
         h2{
             padding: 10px;
-        }
-
-        .bio-image{
-            background-color: #e6e6e6;
-            width: 100%;
-            height: 100%;
-            display: block;
         }
     }
 }
