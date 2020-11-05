@@ -134,5 +134,14 @@ li:hover {
   margin: 10px;
   text-align: center;
 }
+.bio-container .bio-content h2 {
+  padding: 10px;
+}
+.bio-container .bio-content .bio-image {
+  background-color: #e6e6e6;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 
 /*# sourceMappingURL=style.css.map */

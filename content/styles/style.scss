@@ -149,5 +149,16 @@ li:hover {
         width: 500px;
         margin: 10px;
         text-align: center;
+
+        h2{
+            padding: 10px;
+        }
+
+        .bio-image{
+            background-color: #e6e6e6;
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
     }
 }
