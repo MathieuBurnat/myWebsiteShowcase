@@ -405,8 +405,47 @@ input[type=text], input[type=password] {
   }
   
 /*
+* Contact
+*/
+.contact-container{
+    margin-top: 6em;
+
+    h1{
+        text-align: left;
+        font-size: 35px;
+    }
+
+    .contact-content{
+        width: 520px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .contact-citation{
+        margin-top: 50px;
+    }
+
+    .contact-left-content
+    {
+        width: 300px;
+    }
+    
+    #contact-area{
+        width: 100%;
+        height: 50%;
+    }
+}
+.contact-button{
+
+}
+
+/*
 * Calendar
 */
+.container-calendar{
+    width: 100%;
+}
+
 
 .calendar{
     * {
