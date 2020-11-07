@@ -183,6 +183,9 @@ li:hover {
   text-align: justify;
   padding-bottom: 25px;
 }
+.info-container .info-content #info-right {
+  margin-top: 100px;
+}
 .info-container .info-content-img {
   width: 400px;
   height: 100%;
