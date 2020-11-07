@@ -49,6 +49,24 @@ h2 {
   justify-content: center;
 }
 
+/* citation */
+.citation {
+  font-style: italic;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* separtion dashed-line */
+.line {
+  margin: 20px 10px;
+  border-style: dashed;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  color: #000000b3;
+}
+
 /*
  * Header
  */
