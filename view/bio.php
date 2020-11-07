@@ -2,7 +2,7 @@
     require('view/header.php');
 ?>
 
-<div class="bio-container">
+<div class="bio-container default-container">
     <div class="bio-content">
         <h2> STORY 0.1 </h2>
         <h1> Mathieu's bio </h1>

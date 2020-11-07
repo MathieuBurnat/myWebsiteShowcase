@@ -2,7 +2,7 @@
     require('view/header.php');
 ?>
 
-<div class="div-container">
+<div class="div-container default-container">
     <div class="div-content-img">
         <img class="default-image" src='content/images/image_ico.png'>
     </div>

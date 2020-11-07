@@ -38,6 +38,13 @@ h2 {
   padding: 10px;
 }
 
+/* Container */
+.default-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 /*
  * Header
  */
@@ -137,9 +144,6 @@ li:hover {
  * Divers
 */
 .div-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   flex-flow: row-reverse;
 }
 .div-container .div-content-img {
@@ -157,9 +161,6 @@ li:hover {
  * Bio
 */
 .bio-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin-top: 6em;
 }
 .bio-container .bio-content {
@@ -172,9 +173,6 @@ li:hover {
  * Info-Dev
 */
 .info-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin-top: 6em;
 }
 .info-container .info-content {
