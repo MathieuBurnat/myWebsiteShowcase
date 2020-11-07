@@ -173,12 +173,20 @@ li:hover {
  * Info-Dev
 */
 .info-container {
-  margin-top: 6em;
+  margin-top: 4em;
 }
 .info-container .info-content {
   width: 400px;
-  margin: 10px;
-  text-align: center;
+  margin: 0px 20px;
+}
+.info-container .info-content p {
+  text-align: justify;
+  padding-bottom: 25px;
+}
+.info-container .info-content-img {
+  width: 400px;
+  height: 100%;
+  margin: 0 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
