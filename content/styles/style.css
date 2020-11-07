@@ -168,4 +168,22 @@ li:hover {
   padding: 10px;
 }
 
+/*
+ * Info-Dev
+*/
+.info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 6em;
+}
+.info-container .info-content {
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+}
+.info-container .info-content h1 {
+  padding-bottom: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

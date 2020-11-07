@@ -188,3 +188,23 @@ li:hover {
         }
     }
 }
+
+/*
+ * Info-Dev
+*/
+.info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6em;
+    
+    .info-content{
+        width: 500px;
+        margin: 10px;
+        text-align: center;
+
+        h1{
+            padding-bottom: 20px;
+        }
+    }
+}
