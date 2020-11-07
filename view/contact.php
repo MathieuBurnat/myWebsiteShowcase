@@ -59,7 +59,7 @@ span.psw {
 }
 
 /* The Modal (background) */
-.modal {
+.login-modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -74,7 +74,7 @@ span.psw {
 }
 
 /* Modal Content/Box */
-.modal-content {
+.login-modal-content {
   background-color: #fefefe;
   margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
   border: 1px solid #888;
