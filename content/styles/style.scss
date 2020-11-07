@@ -151,11 +151,11 @@ li:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
+    flex-flow: row-reverse;
     .div-content-img{
         width: 700px;
         height: 100%;
-         margin: 0 20px;
+        margin: 0 20px;
     }
 
     .div-content{
