@@ -50,6 +50,10 @@ h2{
     padding: 10px;
 }
 
+h3{
+    padding-bottom: 5px;
+}
+
 /* Container */
 .default-container{
     display: flex;
@@ -245,4 +249,14 @@ li:hover {
         margin: 10px;
         text-align: center;
     }
+
+    .info-citation{
+        margin-top: 50px;
+    }
+
+    .info-crea-left-content
+    {
+    width: 300px;
+    }
 }
+

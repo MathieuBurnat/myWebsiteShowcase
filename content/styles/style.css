@@ -42,6 +42,10 @@ h2 {
   padding: 10px;
 }
 
+h3 {
+  padding-bottom: 5px;
+}
+
 /* Container */
 .default-container {
   display: flex;
@@ -223,6 +227,12 @@ li:hover {
   width: 500px;
   margin: 10px;
   text-align: center;
+}
+.info-crea-container .info-citation {
+  margin-top: 50px;
+}
+.info-crea-container .info-crea-left-content {
+  width: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
