@@ -18,9 +18,6 @@ scss variables
   padding: 0;
 }
 
-/*
- * other
- */
 .error {
   color: darkred;
 }
@@ -30,6 +27,15 @@ scss variables
   width: 100%;
   height: 100%;
   display: block;
+}
+
+/* Titles */
+h1 {
+  padding-bottom: 20px;
+}
+
+h2 {
+  padding: 10px;
 }
 
 /*
@@ -146,9 +152,6 @@ li:hover {
   width: 500px;
   text-align: center;
 }
-.div-container .div-content h2 {
-  padding: 10px;
-}
 
 /*
  * Bio
@@ -164,9 +167,6 @@ li:hover {
   margin: 10px;
   text-align: center;
 }
-.bio-container .bio-content h2 {
-  padding: 10px;
-}
 
 /*
  * Info-Dev
@@ -178,12 +178,9 @@ li:hover {
   margin-top: 6em;
 }
 .info-container .info-content {
-  width: 500px;
+  width: 400px;
   margin: 10px;
   text-align: center;
-}
-.info-container .info-content h1 {
-  padding-bottom: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

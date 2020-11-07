@@ -26,10 +26,6 @@ $color-text-error : darkred;
     padding: 0;
 }
 
-/*
- * other
- */
-
 .error{
     color: $color-text-error;
 }
@@ -39,6 +35,15 @@ $color-text-error : darkred;
     width: 100%;
     height: 100%;
     display: block;
+}
+
+/* Titles */
+h1{
+    padding-bottom: 20px;
+}
+
+h2{
+    padding: 10px;
 }
 
 /*
@@ -162,10 +167,6 @@ li:hover {
         margin-top: 6em;
         width: 500px;
         text-align: center;
-
-        h2{
-            padding: 10px;
-        }
     }
 }
 
@@ -182,10 +183,6 @@ li:hover {
         width: 500px;
         margin: 10px;
         text-align: center;
-
-        h2{
-            padding: 10px;
-        }
     }
 }
 
@@ -199,12 +196,8 @@ li:hover {
     margin-top: 6em;
     
     .info-content{
-        width: 500px;
+        width: 400px;
         margin: 10px;
         text-align: center;
-
-        h1{
-            padding-bottom: 20px;
-        }
     }
 }
