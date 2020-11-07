@@ -37,6 +37,10 @@ $color-text-error : darkred;
     display: block;
 }
 
+p{
+    text-align: justify;
+}
+
 /* Titles */
 h1{
     padding-bottom: 20px;
@@ -198,7 +202,6 @@ li:hover {
         width: 400px;
         margin: 0px 20px;
         p{
-            text-align: justify;
             padding-bottom: 25px;
         }
         #info-right{
@@ -211,8 +214,17 @@ li:hover {
         height: 100%;
         margin: 0 20px;
     }
+}
 
-    h1{
+/*
+ * Info-crea
+*/
+.info-crea-container{
+    margin-top: 6em;
 
+    .info-crea-content{
+        width: 500px;
+        margin: 10px;
+        text-align: center;
     }
 }

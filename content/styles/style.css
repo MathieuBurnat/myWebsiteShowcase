@@ -29,6 +29,10 @@ scss variables
   display: block;
 }
 
+p {
+  text-align: justify;
+}
+
 /* Titles */
 h1 {
   padding-bottom: 20px;
@@ -180,7 +184,6 @@ li:hover {
   margin: 0px 20px;
 }
 .info-container .info-content p {
-  text-align: justify;
   padding-bottom: 25px;
 }
 .info-container .info-content #info-right {
@@ -190,6 +193,18 @@ li:hover {
   width: 400px;
   height: 100%;
   margin: 0 20px;
+}
+
+/*
+ * Info-crea
+*/
+.info-crea-container {
+  margin-top: 6em;
+}
+.info-crea-container .info-crea-content {
+  width: 500px;
+  margin: 10px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
