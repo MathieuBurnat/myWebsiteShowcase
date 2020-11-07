@@ -19,6 +19,9 @@
         case '/dev-footer' :
             $path = "view/footer.php";
             break;
+        case '/dev-calendar' :
+            $path = "view/calendar.php";
+            break;
         //Normal request
         case '' :
         case '/' :
