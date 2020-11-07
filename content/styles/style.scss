@@ -260,7 +260,14 @@ li:hover {
 
     .info-crea-left-content
     {
-    width: 300px;
+        width: 300px;
+    }
+
+    #info-img-avatar{
+        border-radius: 50%;
+        width: 100px;
+        margin-bottom: 20px;
+        margin-left: 10px;
     }
 }
 

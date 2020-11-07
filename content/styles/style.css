@@ -237,5 +237,11 @@ li:hover {
 .info-crea-container .info-crea-left-content {
   width: 300px;
 }
+.info-crea-container #info-img-avatar {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
