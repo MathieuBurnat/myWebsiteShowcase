@@ -270,3 +270,37 @@ li:hover {
     }
 }
 
+/*
+ * Maerketing
+*/
+.market-container{
+    margin-top: 6em;
+
+    h1{
+        text-align: left;
+        font-size: 35px;
+    }
+
+    .market-content{
+        width: 450px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .market-citation{
+        margin-top: 50px;
+    }
+
+    .market-left-content
+    {
+        width: 300px;
+    }
+
+    #info-img-avatar{
+        border-radius: 50%;
+        width: 100px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+}
+

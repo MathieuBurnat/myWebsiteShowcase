@@ -244,4 +244,32 @@ li:hover {
   margin-left: 10px;
 }
 
+/*
+ * Maerketing
+*/
+.market-container {
+  margin-top: 6em;
+}
+.market-container h1 {
+  text-align: left;
+  font-size: 35px;
+}
+.market-container .market-content {
+  width: 450px;
+  margin: 10px;
+  text-align: center;
+}
+.market-container .market-citation {
+  margin-top: 50px;
+}
+.market-container .market-left-content {
+  width: 300px;
+}
+.market-container #info-img-avatar {
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
 /*# sourceMappingURL=style.css.map */
