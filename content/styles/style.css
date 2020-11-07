@@ -123,6 +123,9 @@ li:hover {
   text-align: center;
   padding: 90px 0px;
 }
+.footer #p-footer {
+  text-align: center;
+}
 
 /*
  * Home-page
