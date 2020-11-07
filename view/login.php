@@ -1,5 +1,6 @@
+<script src="view/scripts.js" defer></script>
+
 <div id="login" class="login-modal">
-  
   <form class="login-modal-content login-animate" action="/action_page.php" method="post">
     <div class="imgcontainer">
       <span onclick="document.getElementById('login').style.display='none'" class="login-close" title="Close Modal">&times;</span>
@@ -26,14 +27,4 @@
   </form>
 </div>
 
-<script>
-// Get the modal
-var modal = document.getElementById('login');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
