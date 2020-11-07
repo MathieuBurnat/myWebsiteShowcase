@@ -3,9 +3,6 @@
 ?>
 <h1> Welcome to contact. </h1>
 
-<h2>Modal Login Form</h2>
-
-
 <?php require("view/calendar.php"); ?>
 
 

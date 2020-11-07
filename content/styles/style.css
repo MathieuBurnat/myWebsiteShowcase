@@ -394,7 +394,7 @@ span.psw {
 .calendar .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #000;
   text-align: center;
 }
 .calendar .month ul {
@@ -442,7 +442,8 @@ span.psw {
 }
 .calendar .days li .active {
   padding: 5px;
-  background: #1abc9c;
+  background: #000;
+  border-radius: 100%;
   color: white !important;
 }
 @media screen and (max-width: 720px) {

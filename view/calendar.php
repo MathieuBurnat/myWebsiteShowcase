@@ -4,20 +4,20 @@
             <li class="prev">&#10094;</li>
             <li class="next">&#10095;</li>
             <li>
-            August<br>
-            <span style="font-size:18px">2017</span>
+            decembre<br>
+            <span style="font-size:18px">2020</span>
             </li>
         </ul>
     </div>
 
     <ul class="weekdays">
-        <li>Mo</li>
-        <li>Tu</li>
-        <li>We</li>
-        <li>Th</li>
-        <li>Fr</li>
-        <li>Sa</li>
-        <li>Su</li>
+        <li>Lundi</li>
+        <li>Mardi</li>
+        <li>Mercredi</li>
+        <li>Jeudi</li>
+        <li>Vendredi</li>
+        <li>Samedi</li>
+        <li>Dimanche</li>
     </ul>
 
     <ul class="days">

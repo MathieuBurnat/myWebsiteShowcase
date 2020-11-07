@@ -418,7 +418,7 @@ input[type=text], input[type=password] {
     .month {
     padding: 70px 25px;
     width: 100%;
-    background: #1abc9c;
+    background: $background-color;
     text-align: center;
     }
 
@@ -475,7 +475,8 @@ input[type=text], input[type=password] {
 
     .days li .active {
     padding: 5px;
-    background: #1abc9c;
+    background: $background-color;
+    border-radius: 100%;
     color: white !important
     }
 
