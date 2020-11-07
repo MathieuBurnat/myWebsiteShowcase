@@ -98,7 +98,7 @@ span.psw {
 }
 
 /* Add Zoom Animation */
-.animate {
+.login-animate {
   -webkit-animation: login-animatezoom 0.6s;
   animation: login-animatezoom 0.6s
 }
