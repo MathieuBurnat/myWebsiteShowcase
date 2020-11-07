@@ -49,7 +49,7 @@ img.avatar {
   border-radius: 50%;
 }
 
-.container {
+.login-container {
   padding: 16px;
 }
 

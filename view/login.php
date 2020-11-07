@@ -6,7 +6,7 @@
       <img src="content/images/img_avatar.png" alt="Avatar" class="avatar">
     </div>
 
-    <div class="container">
+    <div class="login-container">
       <label for="uname"><b>Username</b></label>
       <input type="text" placeholder="Enter Username" name="uname" required>
 
@@ -19,7 +19,7 @@
       </label>
     </div>
 
-    <div class="container" style="background-color:#f1f1f1">
+    <div class="login-container" style="background-color:#f1f1f1">
       <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
       <span class="psw">Forgot <a href="#">password?</a></span>
     </div>
