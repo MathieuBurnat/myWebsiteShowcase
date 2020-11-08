@@ -462,15 +462,18 @@ span.psw {
 }
 .vertical-menu .contact-hey-user-box {
   color: white;
-  background-color: #369136;
+  background-color: #71B171;
   text-align: center;
   padding: 20px;
+  font-weight: bold;
 }
 .vertical-menu .contact-disconcect-box {
-  background-color: #EB0909;
+  background-color: #F47C7C;
   text-align: center;
   float: right;
   padding: 10px 25px;
+  transition: 2s;
+  font-weight: bold;
 }
 .vertical-menu a {
   background-color: #eee;
@@ -484,10 +487,8 @@ span.psw {
   text-decoration: none;
   /* Remove underline from links */
 }
-.vertical-menu a.active {
-  background-color: #4CAF50;
-  /* Add a green color to the "active/current" link */
-  color: white;
+.vertical-menu .contact-disconcect-box:hover {
+  background-color: pink;
 }
 
 /*

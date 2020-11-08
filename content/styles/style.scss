@@ -501,16 +501,19 @@ input[type=text], input[type=password] {
 
     .contact-hey-user-box{
         color: white;
-        background-color: #369136;
+        background-color: #71B171;
         text-align: center;
         padding: 20px;
+        font-weight: bold;
     }
 
     .contact-disconcect-box{
-        background-color: #EB0909;
+        background-color: #F47C7C;
         text-align: center;
         float: right;
         padding: 10px 25px;
+        transition: 2s;
+        font-weight: bold;
     }
 
     a {
@@ -521,15 +524,10 @@ input[type=text], input[type=password] {
         text-decoration: none; /* Remove underline from links */
     }
 
-    a:hover {
-
+    .contact-disconcect-box:hover {
+        background-color: pink;
     }
 
-    a.active {
-      
-        background-color: #4CAF50; /* Add a green color to the "active/current" link */
-        color: white;
-    }
 }
 
 /*
