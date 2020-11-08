@@ -584,6 +584,13 @@ span.psw {
   }
 }
 
+.register-container {
+  margin-top: 5em;
+  width: 40%;
+  margin: auto;
+  margin-top: 6em;
+}
+
 @-webkit-keyframes login-animatezoom {
   from {
     -webkit-transform: scale(0);
