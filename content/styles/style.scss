@@ -471,8 +471,18 @@ input[type=text], input[type=password] {
     margin: 0;
     padding: 20px 0px;
     background-color: #2973C7;
-
+    font-size: 16px;
     outline: 0px solid $background-color;
+}
+
+.hey-user-box{
+    float: right;
+    width: 20%;
+    margin: 0;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    background-color: #369136;
 }
 
 /*
@@ -481,8 +491,6 @@ input[type=text], input[type=password] {
 .container-calendar{
     width: 100%;
 }
-
-
 .calendar{
     * {
         box-sizing: border-box;

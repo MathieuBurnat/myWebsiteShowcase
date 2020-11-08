@@ -18,7 +18,7 @@
 <?php if($ctrl->displayConnectedButton){ ?>
 <button onclick="document.getElementById('login').style.display='block'" class="contact-connection-button">Se connecter</button>
 <?php }else{ ?>
-<button onclick="document.getElementById('login').style.display='block'" class="contact-connection-button">Welcome <?= $_SESSION["user"];?>!</button>
+<div class="hey-user-box">Welcome <?= $_SESSION["user"];?>!</div>
 <?php } ?>
 
 <div class="contact-container default-container"> 
