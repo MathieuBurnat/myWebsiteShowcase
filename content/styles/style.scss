@@ -12,7 +12,8 @@
 scss variables
 */
 $background-color : #000;
-$color-text-header : white;
+$color-hover: #4747478c;
+$color-text-big-tittle : white;
 $color-text-error : darkred;
 
 /*
@@ -25,12 +26,57 @@ $color-text-error : darkred;
     padding: 0;
 }
 
-/*
- * other
- */
-
 .error{
     color: $color-text-error;
+}
+
+.default-image{
+    background-color: #e6e6e6;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+p{
+    text-align: justify;
+}
+
+/* Titles */
+h1{
+    padding-bottom: 20px;
+}
+
+h2{
+    padding: 10px;
+}
+
+h3{
+    padding-bottom: 5px;
+}
+
+/* Container */
+.default-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* citation */
+.citation{
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* separtion dashed-line */
+.line{
+    margin: 20px 10px;
+    border-style: dashed;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    color: #000000b3;
 }
 
 /*
@@ -41,47 +87,64 @@ nav{
     width: 100%;
     flex-direction: row;
     background-color: $background-color;
+
+    ul{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .header-left{
+        margin-right: auto;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+    
+    .header-right{
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    
+    
+    li a {
+        display: block;
+        color: $color-text-big-tittle;
+        text-align: center;
+        text-decoration: none;
+        padding: 40px 10px;
+    }
+    
+    li:hover {
+        background-color: $color-hover;
+    }
 }
 
-ul{
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-}
-
-.header-left{
-    margin-right: auto;
-    margin-left: 20px;
-    font-size: 30px;
-}
-
-.header-right{
-    margin-right: 20px;
-    font-size: 20px;
-}
-
-
-li a {
-    display: block;
-    color: $color-text-header;
+/* 
+ * Footer
+*/
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $background-color;
+    color: $color-text-big-tittle;
     text-align: center;
-    text-decoration: none;
-    padding: 40px 10px;
+    padding: 90px 0px;
+    position: fixed;
+    #p-footer{
+        text-align: center;
+    }
 }
 
-li:hover {
-    background-color: #4747478c;
-}
 
 /*
- * Home-page
+ * Homepage - home-page
 */
 .hp-body{
     overflow-y: hidden;
 
     .hp-container{
         /* css for the image */
-        color: purple;
         background-image: url("../images/me-back.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -114,10 +177,410 @@ li:hover {
             background-color: #0000003d;
             font-weight: bold;
             padding: 15px 25px;
-            
-            border-radius: 6px;
+            border-radius: 4px;
         }
     
     }
 }
 
+
+/*
+ * Divers
+*/
+.div-container{
+    flex-flow: row-reverse;
+
+    .div-content-img{
+        width: 700px;
+        height: 100%;
+        margin: 0 20px;
+    }
+
+    .div-content{
+        margin-top: 6em;
+        width: 500px;
+        text-align: center;
+    }
+}
+
+/*
+ * Bio
+*/
+.bio-container{
+    margin-top: 6em;
+
+    .bio-content{
+        width: 500px;
+        margin: 10px;
+        text-align: center;
+    }
+}
+
+/*
+ * Info-Dev
+*/
+.info-container{
+    margin-top: 4em;
+    
+    .info-content{
+        width: 400px;
+        margin: 0px 20px;
+        p{
+            padding-bottom: 25px;
+        }
+        #info-right{
+            margin-top: 100px;
+        }
+    }
+
+    .info-content-img{
+        width: 400px;
+        height: 100%;
+        margin: 0 20px;
+    }
+}
+
+/*
+ * Info-crea
+*/
+.info-crea-container{
+    margin-top: 6em;
+
+    .info-crea-content{
+        width: 500px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .info-citation{
+        margin-top: 50px;
+    }
+
+    .info-crea-left-content
+    {
+        width: 300px;
+    }
+
+    #info-img-avatar{
+        border-radius: 50%;
+        width: 100px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+}
+
+/*
+ * Marketing
+*/
+.market-container{
+    margin-top: 6em;
+
+    h1{
+        text-align: left;
+        font-size: 35px;
+    }
+
+    .market-content{
+        width: 450px;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .market-citation{
+        margin-top: 50px;
+    }
+
+    .market-left-content
+    {
+        width: 300px;
+    }
+
+    #info-img-avatar{
+        border-radius: 50%;
+        width: 100px;
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+}
+
+/*
+ * Login section
+*/
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #000000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  /* Center the image and position the close button */
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+  .login-container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* The Modal (background) */
+  .login-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  }
+  
+  /* Modal Content/Box */
+  .login-modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 20%;
+  }
+  
+  /* The Close Button (x) */
+  .login-close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .login-close:hover,
+  .login-close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  /* Add Zoom Animation */
+  .login-animate {
+    -webkit-animation: login-animatezoom 0.6s;
+    animation: login-animatezoom 0.6s
+  }
+  
+/*
+* Contact
+*/
+.contact-container{
+    margin-top: 10em;
+
+    h1{
+        text-align: left;
+        font-size: 35px;
+    }
+
+    .contact-content{
+        width: 40%;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .contact-citation{
+        margin-top: 50px;
+    }
+
+    .contact-left-content
+    {
+        width: 300px;
+    }
+    
+    #contact-area{
+        width: 100%;
+        height: 50%;
+    }
+
+    .contact-case{
+        text-align: left;
+        background-color: $background-color;
+        width: 35px;
+        color: $color-text-big-tittle;
+        padding: 15px;
+    }
+
+    #contact-area {
+
+        border-color: $background-color;
+        width: 100%;
+        height: 70%;
+        border-style: double;
+    }
+
+    #contact-area:focus{
+        outline: 0px solid $background-color;
+        border-style: dashed;
+    }
+}
+.contact-button{
+    padding-bottom: 17px;
+}
+
+.contact-connection-button{
+    float: right;
+    width: 20%;
+    margin: 0;
+    padding: 20px 0px;
+    background-color: #2973C7;
+}
+
+.contact-connection-button{
+    outline: 0px solid $background-color;
+ }
+
+/*
+* Calendar
+*/
+.container-calendar{
+    width: 100%;
+}
+
+
+.calendar{
+    * {
+        box-sizing: border-box;
+    }
+    ul {list-style-type: none;}
+    body {font-family: Verdana, sans-serif;}
+
+    .month {
+    padding: 70px 25px;
+    width: 100%;
+    background: $background-color;
+    text-align: center;
+    }
+
+    .month ul {
+    margin: 0;
+    padding: 0;
+    }
+
+    .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    }
+
+    .month .prev {
+    float: left;
+    padding-top: 10px;
+    }
+
+    .month .next {
+    float: right;
+    padding-top: 10px;
+    }
+
+    .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    }
+
+    .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+    }
+
+    .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    }
+
+    .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+    }
+
+    .days li .active {
+    padding: 5px;
+    background: $background-color;
+    border-radius: 100%;
+    color: white !important
+    }
+
+    /* Add media queries for smaller screens */
+    @media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+    }
+
+    @media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+    }
+
+    @media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+    }
+}
+
+
+
+  @-webkit-keyframes login-animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes login-animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+
+  
+@media (max-height: 800px){
+    .footer{
+        position: relative;
+    }
+}

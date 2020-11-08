@@ -8,7 +8,7 @@
         <li><a href="/info-crea-tech">Informatique - Création Techniques </a></li>
         <li><a href="/marketing">Marketing </a></li>
         <li><a href="/divers">Divers</a></li>
-        <li><a href="/contact"> Rent-Me/Contact </a></li>
+        <li><a href="/contact"> Contact </a></li>
     </ul>
 </nav>
 
