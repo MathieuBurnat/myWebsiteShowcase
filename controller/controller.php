@@ -35,11 +35,11 @@ class UserManager {
         echo "<h2>Test the connection with the user : " .$username." and his password : ".$password."</h2> <br>";
         echo "Hashed password : ".$this->hashPassword($password);
 
-        /*if($db->CheckConnection($username, $this->hashPassword($password))){
+        if($db->CheckConnection($username, $this->hashPassword($password))){
             //Username and password are correct
         }else{
             //Wrong passsword or user
-        }*/
+        }
     }
 
     //The function hasPassword is usefull because it will be use to complexifiy the hash with a salt later.
