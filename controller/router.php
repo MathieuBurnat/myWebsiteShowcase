@@ -53,7 +53,7 @@
             $path = "view/contact.php";
             break;
         case '/action-connect': 
-            $usrManger->connect($_POST["uname"], $_POST["psw"]);
+            $usrManger->connect(htmlspecialchars($_POST["uname"]), htmlspecialchars($_POST["psw"]));
             break;
         default: //Aie, something wrong ! (the page's not found)
             http_response_code(404);
