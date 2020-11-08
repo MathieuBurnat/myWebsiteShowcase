@@ -457,6 +457,12 @@ input[type=text], input[type=password] {
 }
 .contact-button{
     padding-bottom: 17px;
+
+
+}
+
+.disconnected{
+    font-style: italic;
 }
 
 .contact-connection-button{
@@ -465,11 +471,9 @@ input[type=text], input[type=password] {
     margin: 0;
     padding: 20px 0px;
     background-color: #2973C7;
-}
 
-.contact-connection-button{
     outline: 0px solid $background-color;
- }
+}
 
 /*
 * Calendar

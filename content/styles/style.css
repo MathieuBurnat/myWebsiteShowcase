@@ -422,15 +422,16 @@ span.psw {
   padding-bottom: 17px;
 }
 
+.disconnected {
+  font-style: italic;
+}
+
 .contact-connection-button {
   float: right;
   width: 20%;
   margin: 0;
   padding: 20px 0px;
   background-color: #2973C7;
-}
-
-.contact-connection-button {
   outline: 0px solid #000;
 }
 
