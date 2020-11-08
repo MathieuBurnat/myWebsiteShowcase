@@ -436,7 +436,7 @@ span.psw {
   outline: 0px solid #000;
 }
 
-.hey-user-box {
+.contact-hey-user-box {
   float: right;
   width: 20%;
   margin: 0;
@@ -444,6 +444,15 @@ span.psw {
   text-align: center;
   color: white;
   background-color: #369136;
+}
+
+.contact-disconcect-box {
+  float: right;
+  width: 10%;
+  margin: 0;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #EB0909;
 }
 
 /*
