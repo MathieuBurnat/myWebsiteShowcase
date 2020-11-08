@@ -1,5 +1,5 @@
 <?php
-    require('controller/controller.php');
+    require('controller/usermanager.php');
     $usrManger = new UserManager();
 
     $request = '';
@@ -58,7 +58,10 @@
         case '/action-connect': 
             $usrManger->connect(htmlspecialchars($_POST["uname"]), htmlspecialchars($_POST["psw"]));
             $path = "view/contact.php";
-
+            break;
+        case '/action-register':
+            $usrManger->register(htmlspecialchars($_POST["name"]), htmlspecialchars($_POST["psw"]));
+            $path = "view/contact.php";
             break;
         default: //Aie, something wrong ! (the page's not found)
             http_response_code(404);

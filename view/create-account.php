@@ -3,7 +3,7 @@
 ?>
 <script src="view/create-account.js" defer></script>
 
-<form action="/action_page.php" class="register-container">
+<form action="/action-register" class="register-container" method="post">
     <h1> Créer un compte ! </h1>
 
     <label for="name"><b>Nom</b></label>
