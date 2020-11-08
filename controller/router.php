@@ -1,4 +1,6 @@
 <?php
+    require('controller/controller.php');
+    $usrManger = new UserManager();
 
     $request = '';
     $get_params_offset = stripos($_SERVER['REQUEST_URI'], '?');
@@ -12,7 +14,7 @@
 
     $path = "";
     switch ($request) {
-        //Router dev request
+        //Router dev request (-> Dev tests+)
         case '/dev-header' :
             $path = "view/header.php";
             break;
@@ -22,7 +24,7 @@
         case '/dev-calendar' :
             $path = "view/calendar.php";
             break;
-        //Normal request
+        //Normal request (-> Go to x-page.php)
         case '' :
         case '/' :
             $path = "view/homepage.php";
@@ -45,13 +47,17 @@
         case '/contact' :
             $path = "view/contact.php";
             break; 
-        case '/disconnect':
+        // Actions requests (-> Use for inetect with the MVC stucture (example (action->disconect)))
+        case '/action-disconnect':
             unset($_SESSION["user"]);
             $path = "view/contact.php";
             break;
-        default:
+        case '/action-connect':
+            $usrManger->connect($user, $passwrd);
+            break;
+        default: //Aie, something wrong ! (the page's not found)
             http_response_code(404);
-            $path = "view/Error_404.php"; //Aie, something wrong ! (page not found)
+            $path = "view/Error_404.php"; 
             break;
     }
     require('view/layout.php');

@@ -1,8 +1,7 @@
 <?php
     require('view/header.php');
-    require('controller/controller.php');
 
-    $ctrl = new Controller();
+    $ctrl = new UserManager();
     $ctrl->CheckUserIsConnected();
 ?>
 
@@ -12,7 +11,7 @@
 <?php }else{ ?>
 <div class="vertical-menu">
   <a href="" class="contact-hey-user-box">Welcome <?= $_SESSION["user"];?>!</a>
-  <a href="/disconnect" class="contact-disconcect-box">Disconnect</a>
+  <a href="/action-disconnect" class="contact-disconcect-box">Disconnect</a>
 </div>
 <?php } ?>
 

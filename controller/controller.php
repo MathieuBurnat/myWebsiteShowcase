@@ -2,7 +2,7 @@
 
 //Check if the user is connected
 //In concequence, change buttons
-class Controller {
+class UserManager {
     public $displayConnectedButton = true;
     public $displaySubmitButton = false;
 
@@ -29,5 +29,8 @@ class Controller {
             $this->displayConnectedButton = false;
         }
     }
-}
 
+    function connect($username, $password){
+        echo "connection test : " .$username."with : ".$password;
+    }
+}

@@ -1,7 +1,6 @@
 <?php
     //Active sessions
     session_start();
-    $_SESSION["user"] = "Mathieu";
     
     //DEV :: Display Errors
     $devMode = false;
