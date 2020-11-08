@@ -616,5 +616,12 @@ span.psw {
     position: relative;
   }
 }
+/*
+ * create-account
+*/
+.registerbtnDisabled {
+  background-color: #051122bd;
+  font-style: italic;
+}
 
 /*# sourceMappingURL=style.css.map */

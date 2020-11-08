@@ -647,3 +647,11 @@ input[type=text], input[type=password] {
         position: relative;
     }
 }
+
+/*
+ * create-account
+*/
+.registerbtnDisabled{
+    background-color: #051122bd;
+    font-style: italic;
+}
