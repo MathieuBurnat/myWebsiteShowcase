@@ -1,4 +1,4 @@
-<script src="view/scripts.js" defer></script>
+<script src="view/login.js" defer></script>
 
 <div id="login" class="login-modal">
     <form class="login-modal-content login-animate" action="/action-connect" method="post">
