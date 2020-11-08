@@ -3,9 +3,12 @@
     session_start();
     
     //Display Errors
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
+    $devMode = false;
+    if($devMode){
+        ini_set('display_errors', 1);
+        ini_set('display_startup_errors', 1);
+        error_reporting(E_ALL);
+    }
 
     require('controller/router.php');
 ?>
