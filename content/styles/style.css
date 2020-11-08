@@ -78,7 +78,7 @@ nav {
   display: flex;
   width: 100%;
   flex-direction: row;
-  background-color: #151617;
+  background-color: #051122;
 }
 nav ul {
   list-style-type: none;
@@ -112,7 +112,7 @@ nav li:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #151617;
+  background-color: #051122;
   color: white;
   text-align: center;
   padding: 90px 0px;
@@ -157,7 +157,7 @@ nav li:hover {
   /* Aspect */
   color: white;
   text-decoration: none;
-  background-color: #0000003d;
+  background-color: #051122;
   font-weight: bold;
   padding: 15px 25px;
   border-radius: 4px;
@@ -280,7 +280,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #000000;
+  background-color: #051122;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -402,19 +402,19 @@ span.psw {
 }
 .contact-container .contact-case {
   text-align: left;
-  background-color: #151617;
+  background-color: #051122;
   width: 35px;
   color: white;
   padding: 15px;
 }
 .contact-container #contact-area {
-  border-color: #151617;
+  border-color: #051122;
   width: 100%;
   height: 70%;
   border-style: double;
 }
 .contact-container #contact-area:focus {
-  outline: 0px solid #151617;
+  outline: 0px solid #051122;
   border-style: dashed;
 }
 
@@ -433,7 +433,7 @@ span.psw {
   padding: 20px 0px;
   background-color: #2973C7;
   font-size: 16px;
-  outline: 0px solid #151617;
+  outline: 0px solid #051122;
 }
 
 .contact-hey-user-box-old {
@@ -513,7 +513,7 @@ span.psw {
 .calendar .month {
   padding: 70px 25px;
   width: 100%;
-  background: #151617;
+  background: #051122;
   text-align: center;
 }
 .calendar .month ul {
@@ -561,7 +561,7 @@ span.psw {
 }
 .calendar .days li .active {
   padding: 5px;
-  background: #151617;
+  background: #051122;
   border-radius: 100%;
   color: white !important;
 }

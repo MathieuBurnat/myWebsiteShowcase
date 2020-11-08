@@ -11,7 +11,7 @@
 /*
 scss variables
 */
-$background-color : #151617;
+$background-color : #051122;
 $color-hover: #4747478c;
 $color-text-big-tittle : white;
 $color-text-error : darkred;
@@ -174,7 +174,7 @@ nav{
             /* Aspect */
             color: white;
             text-decoration: none;
-            background-color: #0000003d;
+            background-color: $background-color;
             font-weight: bold;
             padding: 15px 25px;
             border-radius: 4px;
@@ -317,7 +317,7 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-    background-color: #000000;
+    background-color: $background-color;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
