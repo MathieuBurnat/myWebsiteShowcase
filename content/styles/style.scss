@@ -449,15 +449,26 @@ input[type=text], input[type=password] {
         height: 70%;
         border-style: double;
     }
-    
+
     #contact-area:focus{
         outline: 0px solid $background-color;
         border-style: dashed;
-
     }
 }
 .contact-button{
 
+}
+
+.contact-connection-button{
+    float: right;
+    width: 20%;
+    margin: 0;
+    padding: 20px 0px;
+    background-color: #2973C7;
+}
+
+.contact-connection-button{
+    outline: 0px solid $background-color;
 }
 
 /*
