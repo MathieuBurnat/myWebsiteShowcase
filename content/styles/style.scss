@@ -494,29 +494,37 @@ input[type=text], input[type=password] {
     background-color: #EB0909;
 }
 
-.vertical-menu {
+.vertical-menu{
     width: 300px;
     height: 100px;
     float: right;
-  }
-  
-.vertical-menu a {
-background-color: #eee; /* Grey background color */
-color: black; /* Black text color */
-display: block; /* Make the links appear below each other */
-padding: 12px; /* Add some padding */
-text-decoration: none; /* Remove underline from links */
-}
-  
-  .vertical-menu a:hover {
-    background-color: #ccc; /* Dark grey background on mouse-over */
-  }
-  
-  .vertical-menu a.active {
+
+    .contact-hey-user-box{
+
+    }
+
+    .contact-disconcect-box{
+
+    }
+
+    a {
+        background-color: #eee; /* Grey background color */
+        color: black; /* Black text color */
+        display: block; /* Make the links appear below each other */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    a:hover {
+        background-color: #ccc; /* Dark grey background on mouse-over */
+    }
+
+    a.active {
       
-    background-color: #4CAF50; /* Add a green color to the "active/current" link */
-    color: white;
-  }
+        background-color: #4CAF50; /* Add a green color to the "active/current" link */
+        color: white;
+    }
+}
 
 /*
 * Calendar

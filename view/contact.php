@@ -27,8 +27,8 @@
     </li>
 </ul>
 <div class="vertical-menu">
-  <a href="#" class="active">Welcome <?= $_SESSION["user"];?>!</a>
-  <a href="#" class="disconnect">Disconnect</a>
+  <a href="#" class="active contact-hey-user-box">Welcome <?= $_SESSION["user"];?>!</a>
+  <a href="#" class="contact-disconcect-box">Disconnect</a>
 </div>
 <?php } ?>
 

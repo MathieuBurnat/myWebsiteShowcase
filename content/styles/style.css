@@ -460,7 +460,6 @@ span.psw {
   height: 100px;
   float: right;
 }
-
 .vertical-menu a {
   background-color: #eee;
   /* Grey background color */
@@ -473,12 +472,10 @@ span.psw {
   text-decoration: none;
   /* Remove underline from links */
 }
-
 .vertical-menu a:hover {
   background-color: #ccc;
   /* Dark grey background on mouse-over */
 }
-
 .vertical-menu a.active {
   background-color: #4CAF50;
   /* Add a green color to the "active/current" link */
