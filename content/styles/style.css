@@ -386,7 +386,7 @@ span.psw {
   font-size: 35px;
 }
 .contact-container .contact-content {
-  width: 520px;
+  width: 40%;
   margin: 10px;
   text-align: center;
 }
@@ -416,6 +416,10 @@ span.psw {
 .contact-container #contact-area:focus {
   outline: 0px solid #000;
   border-style: dashed;
+}
+
+.contact-button {
+  padding-bottom: 17px;
 }
 
 .contact-connection-button {
