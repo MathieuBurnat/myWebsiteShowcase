@@ -45,6 +45,10 @@
         case '/contact' :
             $path = "view/contact.php";
             break; 
+        case '/disconnect':
+            unset($_SESSION["user"]);
+            $path = "view/contact.php";
+            break;
         default:
             http_response_code(404);
             $path = "view/Error_404.php"; //Aie, something wrong ! (page not found)

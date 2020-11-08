@@ -2,14 +2,6 @@
     require('view/header.php');
     require('controller/controller.php');
 
-    //dev-mode : set-unset the session's variable
-    $enableSession = true;
-
-    if($enableSession)
-        $_SESSION["user"] = "Mathieu";
-    else
-        unset($_SESSION["user"]);
-
     $ctrl = new Controller();
     $ctrl->CheckUserIsConnected();
 ?>
@@ -20,7 +12,7 @@
 <?php }else{ ?>
 <div class="vertical-menu">
   <a href="" class="contact-hey-user-box">Welcome <?= $_SESSION["user"];?>!</a>
-  <a href="#" class="contact-disconcect-box">Disconnect</a>
+  <a href="/disconnect" class="contact-disconcect-box">Disconnect</a>
 </div>
 <?php } ?>
 
