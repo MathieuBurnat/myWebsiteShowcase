@@ -3,7 +3,7 @@
     require('controller/controller.php')
 ?>
 
-<?=CheckUserConnected();?>
+<?=CheckUserIsConnected();?>
 
 
 <button onclick="document.getElementById('login').style.display='block'" class="contact-connection-button">Se connecter</button>
