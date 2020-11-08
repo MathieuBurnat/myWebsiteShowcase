@@ -20,12 +20,16 @@
 <?php }else{ ?>
 <ul>
     <li>
-        <div class="contact-hey-user-box">Welcome <?= $_SESSION["user"];?>!</div>
+        <div class="contact-hey-user-box-old">Welcome <?= $_SESSION["user"];?>!</div>
     </li>
     <li>
-        <a class="contact-disconcect-box" href="https://www.w3schools.com">Disconnect</a>
+        <a class="contact-disconcect-box-old" href="https://www.w3schools.com">Disconnect</a>
     </li>
 </ul>
+<div class="vertical-menu">
+  <a href="#" class="active">Welcome <?= $_SESSION["user"];?>!</a>
+  <a href="#" class="disconnect">Disconnect</a>
+</div>
 <?php } ?>
 
 <div class="contact-container default-container"> 
