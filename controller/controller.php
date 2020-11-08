@@ -37,6 +37,8 @@ class UserManager {
 
         if($db->CheckConnection($username, $this->hashPassword($password))){
             //Username and password are correct
+            //Creation of the user session !
+            $_SESSION["user"] = "Mathieu";
         }else{
             //Wrong passsword or user
         }
