@@ -15,7 +15,6 @@ class Controller {
         //If the user isn't connected
         if((!$_SESSION["user"]))
         {
-            echo("<h1>Not Connected</h1>");
             //Replace the submit button per the black-login-button with a text message like "huh, you should be connected"
             $this->displaySubmitButton = false;
     
@@ -23,7 +22,6 @@ class Controller {
             $this->displayConnectedButton = true;
     
         }else{ //If the use is connected
-            echo("<h1>Connected</h1>");
             //Let the black-submit-button
             $this->displaySubmitButton = true;
     
