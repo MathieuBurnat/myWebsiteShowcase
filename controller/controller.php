@@ -1,5 +1,5 @@
 <?php
-
+require("model/database.php");
 //Check if the user is connected
 //In concequence, change buttons
 class UserManager {
@@ -31,6 +31,20 @@ class UserManager {
     }
 
     function connect($username, $password){
-        echo "connection test : " .$username."with : ".$password;
+        $db = new Database();
+        echo "<h2>Test the connection with the user : " .$username." and his password : ".$password."</h2> <br>";
+        echo "Hashed password : ".$this->hashPassword($password);
+
+        /*if($db->CheckConnection($username, $this->hashPassword($password))){
+            //Username and password are correct
+        }else{
+            //Wrong passsword or user
+        }*/
+    }
+
+    //The function hasPassword is usefull because it will be use to complexifiy the hash with a salt later.
+    function hashPassword($password){
+        $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
+        return $hashedPassword;
     }
 }
