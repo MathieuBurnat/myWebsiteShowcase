@@ -47,6 +47,9 @@
         case '/contact' :
             $path = "view/contact.php";
             break; 
+        case '/create-account':
+            $path = "view/create-account.php";
+            break;
         // Actions requests (-> Use for inetect with the MVC stucture (example (action->disconect)))
         case '/action-disconnect':
             unset($_SESSION["user"]);

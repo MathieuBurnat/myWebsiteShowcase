@@ -22,7 +22,7 @@
 
         <div class="login-container" style="background-color:#f1f1f1">
             <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password</a> or need to <a href="#">register?</a></span>
+            <span class="psw"> Want to<a href="/create-account"> creat an account </a> ? </span>
         </div>
     </form>
 </div>
