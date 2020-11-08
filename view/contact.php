@@ -1,12 +1,23 @@
 <?php
     require('view/header.php');
-    require('controller/controller.php')
+    require('controller/controller.php');
+
+    if(!isset($_SESSION['user']))
+    {
+        $_SESSION['user'] = "Mathieu";
+    }
+
+    $ctrl = new Controller();
+    $ctrl->CheckUserIsConnected();
 ?>
 
-<?=CheckUserIsConnected();?>
 
-
+<?php if($ctrl->displayConnectedButton){ ?>
 <button onclick="document.getElementById('login').style.display='block'" class="contact-connection-button">Se connecter</button>
+<?php }else{ ?>
+<button onclick="document.getElementById('login').style.display='block'" class="contact-connection-button">caca</button>
+
+<?php } ?>
 
 <div class="contact-container default-container"> 
     <div class="contact-content">
