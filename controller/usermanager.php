@@ -11,6 +11,10 @@ class UserManager {
         
     }
     
+    function Register($name, $password){
+        //Register the user.
+    }
+
     function CheckUserIsConnected(){
         //If the user isn't connected
         if((!$_SESSION["user"]))
@@ -50,4 +54,6 @@ class UserManager {
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
         return $hashedPassword;
     }
+
+
 }
