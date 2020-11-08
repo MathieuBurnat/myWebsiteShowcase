@@ -1,11 +1,9 @@
 <?php
     require('view/header.php');
     require('controller/controller.php');
-    
-    if(!isset($_SESSION['user']))
-    {
-       $_SESSION['user'] = "Mathieu";
-    }
+
+    //$_SESSION["user"] = "Mathieu";
+    unset($_SESSION["user"]);
 
     $ctrl = new Controller();
     $ctrl->CheckUserIsConnected();

@@ -13,21 +13,22 @@ class Controller {
     
     function CheckUserIsConnected(){
         //If the user isn't connected
-        if(!isset($_SESSION['user'])){
+        if((!$_SESSION["user"]))
+        {
             echo("<h1>Not Connected</h1>");
             //Replace the submit button per the black-login-button with a text message like "huh, you should be connected"
-            $displaySubmitButton = false;
+            $this->displaySubmitButton = false;
     
             //Let the connected button.
-            $displayConnectedButton = true;
+            $this->displayConnectedButton = true;
     
         }else{ //If the use is connected
-            echo("<h1>Not Connected</h1>");
+            echo("<h1>Connected</h1>");
             //Let the black-submit-button
-            $displaySubmitButton = true;
+            $this->displaySubmitButton = true;
     
             //Replace the connected-button by a green-box that make a yelled-hello to the user with a red-disconnect-button behind.
-            $displayConnectedButton = false;
+            $this->displayConnectedButton = false;
         }
     }
 }
