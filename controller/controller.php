@@ -32,13 +32,14 @@ class UserManager {
 
     function connect($username, $password){
         $db = new Database();
-        echo "<h2>Test the connection with the user : " .$username." and his password : ".$password."</h2> <br>";
-        echo "Hashed password : ".$this->hashPassword($password);
+        //echo "<h2>Test the connection with the user : " .$username." and his password : ".$password."</h2> <br>";
+        //echo "Hashed password : ".$this->hashPassword($password);
 
         if($db->CheckConnection($username, $this->hashPassword($password))){
             //Username and password are correct
             //Creation of the user session !
-            $_SESSION["user"] = "Mathieu";
+            $_SESSION["user"] = $username;
+
         }else{
             //Wrong passsword or user
         }
