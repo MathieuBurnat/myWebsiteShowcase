@@ -2,7 +2,7 @@
     //Active sessions
     session_start();
     
-    //Display Errors
+    //DEV :: Display Errors
     $devMode = false;
     if($devMode){
         ini_set('display_errors', 1);
