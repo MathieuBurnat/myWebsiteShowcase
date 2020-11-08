@@ -500,11 +500,17 @@ input[type=text], input[type=password] {
     float: right;
 
     .contact-hey-user-box{
-
+        color: white;
+        background-color: #369136;
+        text-align: center;
+        padding: 20px;
     }
 
     .contact-disconcect-box{
-
+        background-color: #EB0909;
+        text-align: center;
+        float: right;
+        padding: 10px 25px;
     }
 
     a {
@@ -516,7 +522,7 @@ input[type=text], input[type=password] {
     }
 
     a:hover {
-        background-color: #ccc; /* Dark grey background on mouse-over */
+
     }
 
     a.active {

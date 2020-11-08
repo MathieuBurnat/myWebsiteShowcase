@@ -460,6 +460,18 @@ span.psw {
   height: 100px;
   float: right;
 }
+.vertical-menu .contact-hey-user-box {
+  color: white;
+  background-color: #369136;
+  text-align: center;
+  padding: 20px;
+}
+.vertical-menu .contact-disconcect-box {
+  background-color: #EB0909;
+  text-align: center;
+  float: right;
+  padding: 10px 25px;
+}
 .vertical-menu a {
   background-color: #eee;
   /* Grey background color */
@@ -471,10 +483,6 @@ span.psw {
   /* Add some padding */
   text-decoration: none;
   /* Remove underline from links */
-}
-.vertical-menu a:hover {
-  background-color: #ccc;
-  /* Dark grey background on mouse-over */
 }
 .vertical-menu a.active {
   background-color: #4CAF50;
