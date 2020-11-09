@@ -105,8 +105,9 @@ nav li a {
   text-decoration: none;
   padding: 40px 10px;
 }
-nav li:hover {
-  background-color: #4747478c;
+nav li a:hover {
+  color: pink;
+  transition: 2s;
 }
 
 /* 

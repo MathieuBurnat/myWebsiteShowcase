@@ -118,9 +118,11 @@ nav{
         padding: 40px 10px;
     }
     
-    li:hover {
-        background-color: $color-hover;
+    li a:hover{
+        color: pink;
+        transition: 2s;
     }
+
 }
 
 /* 
