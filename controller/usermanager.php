@@ -5,7 +5,6 @@ require("model/database.php");
 class UserManager {
     public $displayConnectedButton = true;
     public $displaySubmitButton = false;
-    public $contactOutputMessage = "My message";
 
     function __construct()
     {
@@ -58,12 +57,13 @@ class UserManager {
 
     function SubmitContent($content){
         $db = new Database();
+        $msg = new Messager();
 
         if($db->SubmitContent($_SESSION["user"], $content))
         {
-            $this->contactOutputMessage = "<div class='outputMessage outputMessage-info'> 'Votre message a correctement été envoyé !' </div>";
+            $msg->SetOutputMessage("Output message test", "info");
         }else{
-            $this->contactOutputMessage = "<div class='outputMessage outputMessage-error'> 'Un problème est apparut lors de l'envoi de votre message, veuillez ressayer plus tard..' </div>";
+            $msg->SetOutputMessage("Output message test", "error");
         }
     }
 }

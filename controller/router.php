@@ -1,5 +1,7 @@
 <?php
     require('controller/usermanager.php');
+    require('controller/messager.php');
+
     $usrManger = new UserManager();
 
     $request = '';

@@ -30,8 +30,7 @@
             <?php }else{ ?>
             <button class="contact-button disconnected">Vous devez vous connecter afin de pouvoir envoyer votre message.</button>
             <?php } ?>
-            <?= $ctrl->contactOutputMessage; ?>
-            <div class='outputMessage outputMessage-info'> This is a test </div>";
+            <?= Messager::$contactOutputMessage; ?>
 
         </div>
     </div>
