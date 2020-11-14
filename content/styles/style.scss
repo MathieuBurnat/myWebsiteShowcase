@@ -93,6 +93,20 @@ h3{
     color: #000000b3;
 }
 
+/* Output message*/
+.outputMessage{
+    float: right;
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.outputMessage-info{
+    background-color: #00800096;
+}
+.outputMessage-error{
+    background-color: #8b00009c;;
+}
 /*
  * Header
  */
