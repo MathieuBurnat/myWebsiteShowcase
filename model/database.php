@@ -16,7 +16,9 @@ class Database {
     }
 
     function SubmitContent($username, $content){
-        echo $username . " : " . $content;
+        //Send content to the database
+        
+        //echo $username . " : " . $content;
         return true;
     }
 }

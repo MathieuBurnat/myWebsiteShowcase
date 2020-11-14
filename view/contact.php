@@ -28,11 +28,15 @@
             <?php if($ctrl->displaySubmitButton){ ?>
             <button class="form-button" type="submit">Envoyer</button>
             <?php }else{ ?>
-            <button onclick="document.getElementById('login').style.display='block'" class="contact-button disconnected">Vous devez vous connecter afin de pouvoir envoyer votre message.</button>
+            <button class="contact-button disconnected">Vous devez vous connecter afin de pouvoir envoyer votre message.</button>
             <?php } ?>
+            <?= $ctrl->contactOutputMessage; ?>
+            <div class='outputMessage outputMessage-info'> This is a test </div>";
+
         </div>
     </div>
 </form>
+
 
 <?php
     require("view/login.php");
