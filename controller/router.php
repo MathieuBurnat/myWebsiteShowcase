@@ -62,7 +62,7 @@
             break;
         case '/action-submit-content':
             $usrManger->SubmitContent(htmlspecialchars($_POST["contact-area"]));
-            //$path = "view/contact.php";
+            $path = "view/contact.php";
             break;
         default: //Aie, something wrong ! (the page's not found)
             http_response_code(404);

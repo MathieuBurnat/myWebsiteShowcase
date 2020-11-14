@@ -14,4 +14,9 @@ class Database {
 
         return true; //*for the moment, we just set true, we'll do the sql research later.
     }
+
+    function SubmitContent($username, $content){
+        echo $username . " : " . $content;
+        return true;
+    }
 }

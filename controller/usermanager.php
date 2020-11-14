@@ -56,7 +56,15 @@ class UserManager {
     }
 
     function SubmitContent($content){
-        echo "Displaying content : " . $content;
+        $db = new Database();
+
+        if($db->SubmitContent($_SESSION["user"], $content))
+        {
+            echo("<br> content submited :D");
+        }else{
+            echo("Error : content not submited :C");
+        }
+
     }
 
 }
