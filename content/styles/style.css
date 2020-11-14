@@ -211,6 +211,13 @@ nav li a:hover {
   width: 500px;
   text-align: center;
 }
+.div-container h1 {
+  text-align: left;
+}
+.div-container h2 {
+  text-align: left;
+  padding: 10px 0px;
+}
 
 /*
  * Bio
@@ -222,6 +229,13 @@ nav li a:hover {
   width: 500px;
   margin: 10px;
   text-align: center;
+}
+.bio-container h1 {
+  text-align: left;
+}
+.bio-container h2 {
+  text-align: left;
+  padding: 10px 0px;
 }
 
 /*
@@ -251,6 +265,9 @@ nav li a:hover {
 */
 .info-crea-container {
   margin-top: 6em;
+}
+.info-crea-container h1 {
+  text-align: left;
 }
 .info-crea-container .info-crea-content {
   width: 500px;

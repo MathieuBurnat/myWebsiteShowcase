@@ -231,6 +231,15 @@ nav{
         width: 500px;
         text-align: center;
     }
+
+    h1{
+        text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        padding: 10px 0px;
+    }
 }
 
 /*
@@ -243,6 +252,15 @@ nav{
         width: 500px;
         margin: 10px;
         text-align: center;
+    }
+
+    h1{
+        text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        padding: 10px 0px;
     }
 }
 
@@ -275,7 +293,9 @@ nav{
 */
 .info-crea-container{
     margin-top: 6em;
-
+    h1{
+        text-align: left;
+    }
     .info-crea-content{
         width: 500px;
         margin: 10px;
