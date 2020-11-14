@@ -33,6 +33,10 @@ p {
   text-align: justify;
 }
 
+.password-invalid {
+  border-color: #a81414 !important;
+}
+
 /* Titles */
 h1 {
   padding-bottom: 20px;
@@ -53,6 +57,16 @@ h3 {
   justify-content: center;
 }
 
+/* default button */
+.form-button {
+  display: block;
+  background-color: #051122;
+  color: white;
+  padding: 15px;
+  margin-top: 6px;
+  text-decoration: none;
+}
+
 /* citation */
 .citation {
   font-style: italic;
@@ -71,6 +85,23 @@ h3 {
   color: #000000b3;
 }
 
+/* Output message*/
+.outputMessage {
+  float: right;
+  width: 80%;
+  text-align: center;
+  color: white;
+  padding: 5px;
+}
+
+.outputMessage-info {
+  background-color: #00800096;
+}
+
+.outputMessage-error {
+  background-color: #8b00009c;
+}
+
 /*
  * Header
  */
@@ -78,7 +109,7 @@ nav {
   display: flex;
   width: 100%;
   flex-direction: row;
-  background-color: #000;
+  background-color: #051122;
 }
 nav ul {
   list-style-type: none;
@@ -101,8 +132,9 @@ nav li a {
   text-decoration: none;
   padding: 40px 10px;
 }
-nav li:hover {
-  background-color: #4747478c;
+nav li a:hover {
+  color: pink;
+  transition: 2s;
 }
 
 /* 
@@ -112,7 +144,7 @@ nav li:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #000;
+  background-color: #051122;
   color: white;
   text-align: center;
   padding: 90px 0px;
@@ -157,7 +189,7 @@ nav li:hover {
   /* Aspect */
   color: white;
   text-decoration: none;
-  background-color: #0000003d;
+  background-color: #051122;
   font-weight: bold;
   padding: 15px 25px;
   border-radius: 4px;
@@ -280,7 +312,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-  background-color: #000000;
+  background-color: #051122;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -402,24 +434,28 @@ span.psw {
 }
 .contact-container .contact-case {
   text-align: left;
-  background-color: #000;
+  background-color: #051122;
   width: 35px;
   color: white;
   padding: 15px;
 }
 .contact-container #contact-area {
-  border-color: #000;
+  border-color: #051122;
   width: 100%;
   height: 70%;
   border-style: double;
 }
 .contact-container #contact-area:focus {
-  outline: 0px solid #000;
+  outline: 0px solid #051122;
   border-style: dashed;
 }
 
 .contact-button {
   padding-bottom: 17px;
+}
+
+.disconnected {
+  font-style: italic;
 }
 
 .contact-connection-button {
@@ -428,10 +464,63 @@ span.psw {
   margin: 0;
   padding: 20px 0px;
   background-color: #2973C7;
+  font-size: 16px;
+  outline: 0px solid #051122;
 }
 
-.contact-connection-button {
-  outline: 0px solid #000;
+.contact-hey-user-box-old {
+  float: right;
+  width: 20%;
+  margin: 0;
+  padding: 20px 0px;
+  text-align: center;
+  color: white;
+  background-color: #369136;
+}
+
+.contact-disconcect-box-old {
+  float: right;
+  width: 10%;
+  margin: 0;
+  padding: 20px 0px;
+  text-align: center;
+  background-color: #EB0909;
+}
+
+.vertical-menu {
+  width: 300px;
+  height: 100px;
+  float: right;
+}
+.vertical-menu .contact-hey-user-box {
+  color: white;
+  background-color: #71B171;
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+.vertical-menu .contact-disconcect-box {
+  background-color: #F47C7C;
+  text-align: center;
+  float: right;
+  padding: 10px 25px;
+  transition: 2s;
+  font-weight: bold;
+}
+.vertical-menu a {
+  background-color: #eee;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+  display: block;
+  /* Make the links appear below each other */
+  padding: 12px;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline from links */
+}
+.vertical-menu .contact-disconcect-box:hover {
+  background-color: pink;
 }
 
 /*
@@ -456,7 +545,7 @@ span.psw {
 .calendar .month {
   padding: 70px 25px;
   width: 100%;
-  background: #000;
+  background: #051122;
   text-align: center;
 }
 .calendar .month ul {
@@ -504,7 +593,7 @@ span.psw {
 }
 .calendar .days li .active {
   padding: 5px;
-  background: #000;
+  background: #051122;
   border-radius: 100%;
   color: white !important;
 }
@@ -527,6 +616,13 @@ span.psw {
   }
 }
 
+.register-container {
+  margin-top: 5em;
+  width: 40%;
+  margin: auto;
+  margin-top: 6em;
+}
+
 @-webkit-keyframes login-animatezoom {
   from {
     -webkit-transform: scale(0);
@@ -547,6 +643,13 @@ span.psw {
   .footer {
     position: relative;
   }
+}
+/*
+ * create-account
+*/
+.registerbtnDisabled {
+  background-color: #051122bd;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */

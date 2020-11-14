@@ -1,7 +1,7 @@
-<script src="view/scripts.js" defer></script>
+<script src="view/login.js" defer></script>
 
 <div id="login" class="login-modal">
-    <form class="login-modal-content login-animate" action="/action_page.php" method="post">
+    <form class="login-modal-content login-animate" action="/action-connect" method="post">
         <div class="imgcontainer">
             <span onclick="document.getElementById('login').style.display='none'" class="login-close" title="Close Modal">&times;</span>
             <img src="content/images/img_avatar.png" alt="Avatar" class="avatar">
@@ -22,7 +22,7 @@
 
         <div class="login-container" style="background-color:#f1f1f1">
             <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
-            <span class="psw">Forgot <a href="#">password?</a></span>
+            <span class="psw"> Want to<a href="/create-account"> creat an account </a> ? </span>
         </div>
     </form>
 </div>

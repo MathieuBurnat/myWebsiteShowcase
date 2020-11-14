@@ -11,7 +11,7 @@
 /*
 scss variables
 */
-$background-color : #000;
+$background-color : #051122;
 $color-hover: #4747478c;
 $color-text-big-tittle : white;
 $color-text-error : darkred;
@@ -41,6 +41,10 @@ p{
     text-align: justify;
 }
 
+.password-invalid{
+    border-color: #a81414 !important;
+}
+
 /* Titles */
 h1{
     padding-bottom: 20px;
@@ -61,6 +65,16 @@ h3{
     justify-content: center;
 }
 
+/* default button */
+.form-button{
+    display: block;
+    background-color: $background-color;
+    color: white;
+    padding: 15px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
 /* citation */
 .citation{
     font-style: italic;
@@ -79,6 +93,20 @@ h3{
     color: #000000b3;
 }
 
+/* Output message*/
+.outputMessage{
+    float: right;
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.outputMessage-info{
+    background-color: #00800096;
+}
+.outputMessage-error{
+    background-color: #8b00009c;;
+}
 /*
  * Header
  */
@@ -114,9 +142,11 @@ nav{
         padding: 40px 10px;
     }
     
-    li:hover {
-        background-color: $color-hover;
+    li a:hover{
+        color: pink;
+        transition: 2s;
     }
+
 }
 
 /* 
@@ -174,7 +204,7 @@ nav{
             /* Aspect */
             color: white;
             text-decoration: none;
-            background-color: #0000003d;
+            background-color: $background-color;
             font-weight: bold;
             padding: 15px 25px;
             border-radius: 4px;
@@ -317,7 +347,7 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-    background-color: #000000;
+    background-color: $background-color;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -443,7 +473,6 @@ input[type=text], input[type=password] {
     }
 
     #contact-area {
-
         border-color: $background-color;
         width: 100%;
         height: 70%;
@@ -459,17 +488,74 @@ input[type=text], input[type=password] {
     padding-bottom: 17px;
 }
 
+.disconnected{
+    font-style: italic;
+}
+
 .contact-connection-button{
     float: right;
     width: 20%;
     margin: 0;
     padding: 20px 0px;
     background-color: #2973C7;
+    font-size: 16px;
+    outline: 0px solid $background-color;
 }
 
-.contact-connection-button{
-    outline: 0px solid $background-color;
- }
+.contact-hey-user-box-old{
+    float: right;
+    width: 20%;
+    margin: 0;
+    padding: 20px 0px;
+    text-align: center;
+    color: white;
+    background-color: #369136;
+}
+
+.contact-disconcect-box-old{
+    float: right;
+    width: 10%;
+    margin: 0;
+    padding: 20px 0px;
+    text-align: center;
+    background-color: #EB0909;
+}
+
+.vertical-menu{
+    width: 300px;
+    height: 100px;
+    float: right;
+
+    .contact-hey-user-box{
+        color: white;
+        background-color: #71B171;
+        text-align: center;
+        padding: 20px;
+        font-weight: bold;
+    }
+
+    .contact-disconcect-box{
+        background-color: #F47C7C;
+        text-align: center;
+        float: right;
+        padding: 10px 25px;
+        transition: 2s;
+        font-weight: bold;
+    }
+
+    a {
+        background-color: #eee; /* Grey background color */
+        color: black; /* Black text color */
+        display: block; /* Make the links appear below each other */
+        padding: 12px; /* Add some padding */
+        text-decoration: none; /* Remove underline from links */
+    }
+
+    .contact-disconcect-box:hover {
+        background-color: pink;
+    }
+
+}
 
 /*
 * Calendar
@@ -477,8 +563,6 @@ input[type=text], input[type=password] {
 .container-calendar{
     width: 100%;
 }
-
-
 .calendar{
     * {
         box-sizing: border-box;
@@ -566,7 +650,12 @@ input[type=text], input[type=password] {
     }
 }
 
-
+.register-container{
+    margin-top: 5em;
+    width: 40%;
+    margin: auto;
+    margin-top: 6em;
+}
 
   @-webkit-keyframes login-animatezoom {
     from {-webkit-transform: scale(0)} 
@@ -583,4 +672,12 @@ input[type=text], input[type=password] {
     .footer{
         position: relative;
     }
+}
+
+/*
+ * create-account
+*/
+.registerbtnDisabled{
+    background-color: #051122bd;
+    font-style: italic;
 }
