@@ -61,9 +61,9 @@ class UserManager {
 
         if($db->SubmitContent($_SESSION["user"], $content))
         {
-            $msg->SetOutputMessage("Output message test", "info");
+            $msg->SetOutputMessage("Votre message a correctement été envoyé !", "info");
         }else{
-            $msg->SetOutputMessage("Output message test", "error");
+            $msg->SetOutputMessage("Un problème est apparut lors de l'envoi de votre message, veuillez ressayer plus tard..", "error");
         }
     }
 }
