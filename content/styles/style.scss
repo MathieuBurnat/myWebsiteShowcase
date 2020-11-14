@@ -492,14 +492,15 @@ input[type=text], input[type=password] {
         background-color: $background-color;
         color: $color-text-big-tittle;
 
-
-
         #list{
             border: 0px;
+            background-color: $background-color;
+            color: $color-text-big-tittle;
         }
     }
     .case-list{
-        padding-right: 60px;
+        padding-right: 90px;
+
     }
 
     .case-normal{

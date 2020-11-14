@@ -459,9 +459,11 @@ span.psw {
 }
 .contact-container .contact-case #list {
   border: 0px;
+  background-color: #051122;
+  color: white;
 }
 .contact-container .case-list {
-  padding-right: 60px;
+  padding-right: 90px;
 }
 .contact-container .case-normal {
   padding-bottom: 22px !important;

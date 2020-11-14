@@ -25,10 +25,10 @@
             <div class="contact-case case-normal">objet</div>
             <div class="contact-case case-list">
                 <select name="list" id="list">
-                    <option value="volvo">Catégorie</option>
-                    <option value="saab">Saab</option>
-                    <option value="opel">Opel</option>
-                    <option value="audi">Audi</option>
+                <option value="diver">Divers</option>
+                <option value="info-dev">Développement</option>
+                    <option value="info-crea">Créatif</option>
+                    <option value="marketing">Marketing</option>
                 </select>
             </div>
             <textarea id="contact-area" name="contact-area" rows="4" cols="50"> </textarea>
