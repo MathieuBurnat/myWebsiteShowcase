@@ -491,6 +491,19 @@ input[type=text], input[type=password] {
         width: 35px;
         background-color: $background-color;
         color: $color-text-big-tittle;
+
+
+
+        #list{
+            border: 0px;
+        }
+    }
+    .case-list{
+        padding-right: 60px;
+    }
+
+    .case-normal{
+        padding-bottom: 22px !important;
     }
 
     #contact-area {

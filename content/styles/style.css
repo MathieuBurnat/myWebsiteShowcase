@@ -457,6 +457,15 @@ span.psw {
   background-color: #051122;
   color: white;
 }
+.contact-container .contact-case #list {
+  border: 0px;
+}
+.contact-container .case-list {
+  padding-right: 60px;
+}
+.contact-container .case-normal {
+  padding-bottom: 22px !important;
+}
 .contact-container #contact-area {
   border-color: #051122;
   width: 100%;
