@@ -60,6 +60,10 @@
             $usrManger->register(htmlspecialchars($_POST["name"]), htmlspecialchars($_POST["psw"]));
             $path = "view/contact.php";
             break;
+        case '/action-submit-content':
+            $usrManger->SubmitContent(htmlspecialchars($_POST["contact-area"]));
+            //$path = "view/contact.php";
+            break;
         default: //Aie, something wrong ! (the page's not found)
             http_response_code(404);
             $path = "view/Error_404.php"; 

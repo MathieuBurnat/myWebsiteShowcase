@@ -55,5 +55,8 @@ class UserManager {
         return $hashedPassword;
     }
 
+    function SubmitContent($content){
+        echo "Displaying content " . $content;
+    }
 
 }

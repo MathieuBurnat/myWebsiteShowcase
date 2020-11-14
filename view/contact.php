@@ -25,7 +25,7 @@
         <textarea id="contact-area" name="contact-area" rows="4" cols="50"> </textarea>
         <!-- Display the submit button if the user is connected-->
         <?php if($ctrl->displaySubmitButton){ ?>
-        <button onclick="document.getElementById('login').style.display='block'" class="contact-button">Envoyer</button>
+        <a class="href-button" href="/action-submit-content">Envoyer </a>
         <?php }else{ ?>
         <button onclick="document.getElementById('login').style.display='block'" class="contact-button disconnected">Vous devez vous connecter afin de pouvoir envoyer votre message.</button>
         <?php } ?>

@@ -65,6 +65,16 @@ h3{
     justify-content: center;
 }
 
+/* default button */
+.href-button{
+    display: block;
+    background-color: $background-color;
+    color: white;
+    padding: 15px;
+    margin-top: 6px;
+    text-decoration: none;
+}
+
 /* citation */
 .citation{
     font-style: italic;
