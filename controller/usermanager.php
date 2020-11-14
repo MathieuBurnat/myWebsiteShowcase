@@ -13,7 +13,16 @@ class UserManager {
     
     function Register($name, $password){
         //Register the user.
-    }
+        $db = new Database();
+        $msg = new Messager();
+
+        if($db->Register($name, $password))
+        {
+            $msg->SetOutputMessage("Votre compte a été créé avec succès !", "info");
+        }else{
+            $msg->SetOutputMessage("Une erreur s'est produite durant la création de votre compte..", "error");
+        }
+    }   
 
     function CheckUserIsConnected(){
         //If the user isn't connected
