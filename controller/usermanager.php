@@ -56,7 +56,7 @@ class UserManager {
     }
 
     function SubmitContent($content){
-        echo "Displaying content " . $content;
+        echo "Displaying content : " . $content;
     }
 
 }
