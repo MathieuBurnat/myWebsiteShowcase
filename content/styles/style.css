@@ -109,7 +109,7 @@ nav {
   display: flex;
   width: 100%;
   flex-direction: row;
-  background-color: #051122;
+  background: linear-gradient(90deg, black 0%, #58799c 88%, rgba(0, 0, 0, 0.95) 100%);
 }
 nav ul {
   list-style-type: none;
@@ -127,14 +127,14 @@ nav .header-right {
 }
 nav li a {
   display: block;
-  color: white;
+  color: #b5b5b5;
   text-align: center;
   text-decoration: none;
   padding: 40px 10px;
 }
 nav li a:hover {
-  color: pink;
-  transition: 2s;
+  color: white;
+  transition: 1s;
 }
 
 /* 
@@ -144,8 +144,8 @@ nav li a:hover {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #051122;
-  color: white;
+  background: linear-gradient(90deg, black 42%, #4d6a89 82%, #0a141f 98%);
+  color: #b5b5b5;
   text-align: center;
   padding: 90px 0px;
   position: fixed;

@@ -14,7 +14,12 @@ scss variables
 $background-color : #051122;
 $color-hover: #4747478c;
 $color-text-big-tittle : white;
+$color-text-big-tittle-hover : #b5b5b5;
+
 $color-text-error : darkred;
+$gradient : linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(88,121,156,1) 88%, rgb(0 0 0 / 95%) 100%);
+$gradient-footer : linear-gradient(90deg, rgba(0,0,0,1) 42%, rgba(77,106,137,1) 82%, rgba(10,20,31,1) 98%);
+
 
 /*
  * All
@@ -114,7 +119,7 @@ nav{
     display: flex;
     width: 100%;
     flex-direction: row;
-    background-color: $background-color;
+    background: $gradient;
 
     ul{
         list-style-type: none;
@@ -136,17 +141,16 @@ nav{
     
     li a {
         display: block;
-        color: $color-text-big-tittle;
+        color: $color-text-big-tittle-hover;
         text-align: center;
         text-decoration: none;
         padding: 40px 10px;
     }
     
     li a:hover{
-        color: pink;
-        transition: 2s;
+        color: $color-text-big-tittle;
+        transition: 1s;
     }
-
 }
 
 /* 
@@ -156,8 +160,8 @@ nav{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: $background-color;
-    color: $color-text-big-tittle;
+    background: $gradient-footer;
+    color: $color-text-big-tittle-hover;
     text-align: center;
     padding: 90px 0px;
     position: fixed;
