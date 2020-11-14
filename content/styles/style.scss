@@ -485,11 +485,12 @@ input[type=text], input[type=password] {
     }
 
     .contact-case{
-        text-align: left;
-        background-color: $background-color;
+        display: inline;
+        float: left;
+        padding: 20px;
         width: 35px;
+        background-color: $background-color;
         color: $color-text-big-tittle;
-        padding: 15px;
     }
 
     #contact-area {
