@@ -1,5 +1,5 @@
 <?php
-    require('view/header.php');
+    require('view/header-hp.php');
 ?>
 
 <body class="hp-body">
