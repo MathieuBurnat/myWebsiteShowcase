@@ -251,6 +251,11 @@ nav{
 .div-container{
     flex-flow: row-reverse;
 
+    @media screen and (max-width: 1300px) 
+    {
+        flex-wrap: wrap;
+    }
+
     .div-content-img{
         width: 700px;
         height: 100%;
