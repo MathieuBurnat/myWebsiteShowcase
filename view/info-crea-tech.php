@@ -4,9 +4,9 @@
 
 <div class="info-crea-container default-container">
     <div class="info-crea-content info-crea-left-content">
-        <img src="content/images/img_avatar.png" alt="Avatar" id="info-img-avatar">
-        <h3>Name Surname</h3>
-        <div class="citation">"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+        <img src="content/images/samy.jpeg" alt="Avatar" id="info-img-avatar">
+        <h3>Samy Croset</h3>
+        <div class="citation">"Un épanouissement que je n'ai jamais ressenti dans ma vie..."</div>
     </div>
     <div class="info-crea-content">
         <h1>Informatique création technique</h1>
