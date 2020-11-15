@@ -564,6 +564,10 @@ input[type=text], input[type=password] {
 
 .disconnected{
     font-style: italic;
+    @media screen and (max-width: 1055px) 
+    {
+        margin-bottom: 450px;
+    }
 }
 
 .contact-connection-button{
@@ -575,6 +579,11 @@ input[type=text], input[type=password] {
     
     font-size: 16px;
     outline: 0px solid $background-color;
+
+    @media screen and (max-width: 1055px) 
+    {
+        width: 100%;
+    }
 }
 
 .contact-hey-user-box-old{
