@@ -67,6 +67,11 @@ h3 {
   margin-top: 6px;
   text-decoration: none;
 }
+@media screen and (max-width: 1055px) {
+  .form-button {
+    margin-bottom: 450px;
+  }
+}
 
 /* citation */
 .citation {
@@ -424,6 +429,7 @@ span.psw {
 
 /* Modal Content/Box */
 .login-modal-content {
+  min-width: 400px;
   background-color: #fefefe;
   margin: 5% auto 15% auto;
   /* 5% from the top, 15% from the bottom and centered */
