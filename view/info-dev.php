@@ -13,7 +13,7 @@
     <div class="info-content">
         <p id="info-right">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua..</p>
         <div class="line"></div>
-        <div class="citation">“Grâce à Mathieu, mon site de chaussures est vraiment est aussi beau, pratique et fonctionnelle que je l'avais imaginé. Mathieu a su me conseiller et m'écouter tout au long de la conception de mon interface. Et cela, dès les premiers contacts par mail, puis ensuite quand nous nous somme vu juste avant la mise en ligne. Je l'ai découvert via son site internet et par deux trois de mes confrères qui me l'avait conseillé. Je n'hésiterai pas à en faire de même si l'occasion se présente." - Caro</div>
+        <div class="citation">“Grâce à Mathieu, mon site de chaussures est vraiment est aussi beau, pratique et fonctionnelle que je l'avais imaginé. Mathieu a su me conseiller et m'écouter tout au long de la conception de mon interface. Et cela, dès les premiers contacts par mail, puis ensuite quand nous nous somme vu juste avant la mise en ligne. Je l'ai découvert via son site internet et par deux trois de mes confrères qui me l'avait conseillé. Je n'hésiterai pas à en faire de même si l'occasion se présente." <br> - Monique Du Palma</div>
     </div>
 
     <div class="info-content-img">
