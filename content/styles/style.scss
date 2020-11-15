@@ -154,6 +154,23 @@ nav{
         transition: 1s;
     }
 }
+
+@media screen and (max-width: 765px) 
+{
+    nav{
+        display: block;
+    }
+
+    ul{
+        display: block !important;
+    }
+
+    li a {
+        padding: 10px 0px !important;
+    }
+
+}
+
 /* 
  * Header (for the home-page)
 */
