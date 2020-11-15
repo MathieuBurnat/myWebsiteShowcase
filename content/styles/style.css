@@ -127,7 +127,7 @@ nav .header-right {
 }
 nav li a {
   display: block;
-  color: #b5b5b5;
+  color: #b9b9b9;
   text-align: center;
   text-decoration: none;
   padding: 40px 10px;
@@ -145,7 +145,7 @@ nav li a:hover {
   bottom: 0;
   width: 100%;
   background: linear-gradient(90deg, black 42%, #4d6a89 82%, #0a141f 98%);
-  color: #b5b5b5;
+  color: #b9b9b9;
   text-align: center;
   padding: 90px 0px;
   position: fixed;
