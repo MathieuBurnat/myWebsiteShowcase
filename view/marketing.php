@@ -14,9 +14,9 @@
         <div class="citation market-citation">"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."" </div>
     </div>
     <div class="market-content market-left-content">
-        <img src="content/images/img_avatar.png" alt="Avatar" id="info-img-avatar">
-        <h3>Name Surname</h3>
-        <div class="citation">"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</div>
+        <img src="content/images/thara.jpeg" alt="Avatar" id="info-img-avatar">
+        <h3>Thara Scippa</h3>
+        <div class="citation">"Mathieu a réussi à me montrer quels étaient mes problèmes, ensemble nous avons fait grimper mon chiffre d'affaires de 120% !"</div>
     </div>
 </div>
 
