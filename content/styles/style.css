@@ -200,17 +200,12 @@ nav li a:hover {
   .hp-body .hp-container {
     height: 110vh;
   }
-  .hp-body .hp-container .hp-button {
-    top: 27% !important;
-    left: 83% !important;
-  }
   .hp-body .hp-container .hp-text {
     width: 100% !important;
     left: 0% !important;
   }
   .hp-body .hp-container .hp-button {
     top: 53% !important;
-    width: 171%;
     left: 11% !important;
   }
 }
