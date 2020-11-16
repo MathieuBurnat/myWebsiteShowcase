@@ -14,7 +14,12 @@ scss variables
 $background-color : #051122;
 $color-hover: #4747478c;
 $color-text-big-tittle : white;
+$color-text-big-tittle-hover :#b9b9b9;
+
 $color-text-error : darkred;
+$gradient : linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(88,121,156,1) 88%, rgb(0 0 0 / 95%) 100%);
+$gradient-footer : linear-gradient(90deg, rgba(0,0,0,1) 42%, rgba(77,106,137,1) 82%, rgba(10,20,31,1) 98%);
+
 
 /*
  * All
@@ -63,6 +68,7 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* default button */
@@ -73,6 +79,11 @@ h3{
     padding: 15px;
     margin-top: 6px;
     text-decoration: none;
+
+    @media screen and (max-width: 1055px) 
+    {
+        margin-bottom: 450px;
+    }
 }
 
 /* citation */
@@ -110,10 +121,11 @@ h3{
 /*
  * Header
  */
-nav{
+nav{ 
     display: flex;
     width: 100%;
     flex-direction: row;
+    //background: $gradient;
     background-color: $background-color;
 
     ul{
@@ -136,17 +148,40 @@ nav{
     
     li a {
         display: block;
-        color: $color-text-big-tittle;
+        color: $color-text-big-tittle-hover;
         text-align: center;
         text-decoration: none;
         padding: 40px 10px;
     }
     
     li a:hover{
-        color: pink;
-        transition: 2s;
+        color: $color-text-big-tittle;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width: 765px) 
+{
+    nav{
+        display: block;
     }
 
+    ul{
+        display: block !important;
+    }
+
+    li a {
+        padding: 10px 0px !important;
+    }
+
+}
+
+/* 
+ * Header (for the home-page)
+*/
+.header-hp{
+        background: $gradient;
+        background-color: none;
 }
 
 /* 
@@ -156,6 +191,7 @@ nav{
     left: 0;
     bottom: 0;
     width: 100%;
+    //background: $gradient-footer;
     background-color: $background-color;
     color: $color-text-big-tittle;
     text-align: center;
@@ -180,17 +216,38 @@ nav{
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        height: 150vh;
-    
+        height: 150vh; 
+
+        @media screen and (max-width: 765px) 
+        {
+            height: 110vh;
+
+            .hp-button{
+                top: 27% !important;
+                left: 83% !important;
+            }
+
+            .hp-text{
+                width: 100% !important;
+                left: 0% !important;
+            }
+
+            .hp-button{
+                top: 53% !important;
+                width: 171%;
+                left: 11% !important;
+            }
+        }
+
         .hp-text{
             text-align: center;
             position: absolute;
-            top: 10%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            width: 50%;
+            left: 25%;
             text-shadow: 2px 2px #00000047;
             color: white;
             font-size: 20px;
+            margin-top: 3%;
         }
     
         .hp-button{
@@ -220,6 +277,11 @@ nav{
 .div-container{
     flex-flow: row-reverse;
 
+    @media screen and (max-width: 1300px) 
+    {
+        flex-wrap: wrap;
+    }
+
     .div-content-img{
         width: 700px;
         height: 100%;
@@ -230,6 +292,15 @@ nav{
         margin-top: 6em;
         width: 500px;
         text-align: center;
+    }
+
+    h1{
+        text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        padding: 10px 0px;
     }
 }
 
@@ -243,6 +314,15 @@ nav{
         width: 500px;
         margin: 10px;
         text-align: center;
+    }
+
+    h1{
+        text-align: left;
+    }
+
+    h2{
+        text-align: left;
+        padding: 10px 0px;
     }
 }
 
@@ -275,7 +355,9 @@ nav{
 */
 .info-crea-container{
     margin-top: 6em;
-
+    h1{
+        text-align: left;
+    }
     .info-crea-content{
         width: 500px;
         margin: 10px;
@@ -294,8 +376,10 @@ nav{
     #info-img-avatar{
         border-radius: 50%;
         width: 100px;
-        margin-bottom: 20px;
         margin-left: 10px;
+        height: 30%;
+        margin-bottom: 9px;
+        margin-top: 52px;
     }
 }
 
@@ -328,8 +412,8 @@ nav{
     #info-img-avatar{
         border-radius: 50%;
         width: 100px;
-        margin-bottom: 20px;
         margin-left: 10px;
+        margin-top: 52px;
     }
 }
 
@@ -405,6 +489,7 @@ input[type=text], input[type=password] {
   
   /* Modal Content/Box */
   .login-modal-content {
+    min-width: 400px;
     background-color: #fefefe;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
@@ -448,6 +533,7 @@ input[type=text], input[type=password] {
         width: 40%;
         margin: 10px;
         text-align: center;
+        min-width: 500px;
     }
 
     .contact-citation{
@@ -465,11 +551,26 @@ input[type=text], input[type=password] {
     }
 
     .contact-case{
-        text-align: left;
-        background-color: $background-color;
+        display: inline;
+        float: left;
+        padding: 20px;
         width: 35px;
+        background-color: $background-color;
         color: $color-text-big-tittle;
-        padding: 15px;
+
+        #list{
+            border: 0px;
+            background-color: $background-color;
+            color: $color-text-big-tittle;
+        }
+    }
+    .case-list{
+        padding-right: 90px;
+
+    }
+
+    .case-normal{
+        padding-bottom: 22px !important;
     }
 
     #contact-area {
@@ -490,16 +591,26 @@ input[type=text], input[type=password] {
 
 .disconnected{
     font-style: italic;
+    @media screen and (max-width: 1055px) 
+    {
+        margin-bottom: 450px;
+    }
 }
 
 .contact-connection-button{
     float: right;
     width: 20%;
-    margin: 0;
+    margin-top: 5px;
     padding: 20px 0px;
     background-color: #2973C7;
+    
     font-size: 16px;
     outline: 0px solid $background-color;
+
+    @media screen and (max-width: 1055px) 
+    {
+        width: 100%;
+    }
 }
 
 .contact-hey-user-box-old{

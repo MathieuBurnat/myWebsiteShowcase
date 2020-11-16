@@ -11,9 +11,9 @@
     </div>
 
     <div class="info-content">
-        <p id="info-right">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua. Ut enim ad minim veeniam, quis nostruklad exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in tufpoy voluptate velit esse cillum dolore eu fugiat nulla parieratur. Excepteur sint occaecat cupidatat.</p>
+        <p id="info-right">Lorem ipsum dolor sit amet, consectetur adipisifwcing elit, sed do eiusmod tempor incididunt ut labore et dolore roipi magna aliqua..</p>
         <div class="line"></div>
-        <div class="citation">“Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.”</div>
+        <div class="citation">“Grâce à Mathieu, mon site de chaussures est vraiment est aussi beau, pratique et fonctionnelle que je l'avais imaginé. Mathieu a su me conseiller et m'écouter tout au long de la conception de mon interface. Et cela, dès les premiers contacts par mail, puis ensuite quand nous nous somme vu juste avant la mise en ligne. Je l'ai découvert via son site internet et par deux trois de mes confrères qui me l'avait conseillé. Je n'hésiterai pas à en faire de même si l'occasion se présente." <br> - Monique Du Palma</div>
     </div>
 
     <div class="info-content-img">
