@@ -5,6 +5,11 @@ class Database {
         
     }
 
+    function Register($name, $password){
+        //Register the user.
+        return true;
+    }
+
     function CheckConnection($username, $hashedPassword){
         //check into the db if the user has this hashed password.
 

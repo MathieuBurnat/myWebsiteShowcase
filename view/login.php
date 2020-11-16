@@ -8,21 +8,21 @@
         </div>
 
         <div class="login-container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="uname"><b>Utilisateur</b></label>
+            <input type="text" placeholder="Entrer un nom d'utilisateur" name="uname" required>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="psw"><b>Mot de passe</b></label>
+            <input type="password" placeholder="Entrer un mot de passe" name="psw" required>
 
             <button type="submit">Login</button>
             <label>
-                <input type="checkbox" checked="checked" name="remember"> Remember me
+                <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
             </label>
         </div>
 
         <div class="login-container" style="background-color:#f1f1f1">
-            <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Cancel</button>
-            <span class="psw"> Want to<a href="/create-account"> creat an account </a> ? </span>
+            <button type="button" onclick="document.getElementById('login').style.display='none'" class="cancelbtn">Annuler</button>
+            <span class="psw"> Envie de <a href="/create-account"> créer son compte </a> ? </span>
         </div>
     </form>
 </div>

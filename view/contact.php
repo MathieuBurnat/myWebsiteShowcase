@@ -22,7 +22,15 @@
         </div>
 
         <div class="contact-content">
-            <div class="contact-case">objet</div>
+            <div class="contact-case case-normal">objet</div>
+            <div class="contact-case case-list">
+                <select name="list" id="list">
+                    <option value="diver">Divers</option>
+                    <option value="info-dev">Développement</option>
+                    <option value="info-crea">Créatif</option>
+                    <option value="marketing">Marketing</option>
+                </select>
+            </div>
             <textarea id="contact-area" name="contact-area" rows="4" cols="50"> </textarea>
             <!-- Display the submit button if the user is connected-->
             <?php if($ctrl->displaySubmitButton){ ?>
